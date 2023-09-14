@@ -1,0 +1,19 @@
+[4.344s] Invoking command in '/home/yansa/Yansa_Vision/build/RGBCamera': PYTHONPATH=/home/yansa/Yansa_Vision/build/RGBCamera/prefix_override:/home/yansa/Yansa_Vision/install/RGBCamera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yansa/Yansa_Vision/build/RGBCamera/build --no-deps install_data
+[5.336s] running develop
+[5.895s] running egg_info
+[5.895s] writing RGBCamera.egg-info/PKG-INFO
+[5.896s] writing dependency_links to RGBCamera.egg-info/dependency_links.txt
+[5.897s] writing entry points to RGBCamera.egg-info/entry_points.txt
+[5.898s] writing requirements to RGBCamera.egg-info/requires.txt
+[5.898s] writing top-level names to RGBCamera.egg-info/top_level.txt
+[6.059s] reading manifest file 'RGBCamera.egg-info/SOURCES.txt'
+[6.063s] writing manifest file 'RGBCamera.egg-info/SOURCES.txt'
+[6.234s] running build_ext
+[6.237s] Creating /home/yansa/Yansa_Vision/install/RGBCamera/lib/python3.8/site-packages/RGBCamera.egg-link (link to .)
+[6.241s] Installing rgb_grab script to /home/yansa/Yansa_Vision/install/RGBCamera/lib/RGBCamera
+[6.242s] Installing rgb_pub script to /home/yansa/Yansa_Vision/install/RGBCamera/lib/RGBCamera
+[6.242s] Installing rgb_sub script to /home/yansa/Yansa_Vision/install/RGBCamera/lib/RGBCamera
+[6.243s] 
+[6.244s] Installed /home/yansa/Yansa_Vision/build/RGBCamera
+[6.244s] running install_data
+[6.421s] Invoked command in '/home/yansa/Yansa_Vision/build/RGBCamera' returned '0': PYTHONPATH=/home/yansa/Yansa_Vision/build/RGBCamera/prefix_override:/home/yansa/Yansa_Vision/install/RGBCamera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yansa/Yansa_Vision/build/RGBCamera/build --no-deps install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+rgb_grab = RGBCamera.myRGBgrab:main
+

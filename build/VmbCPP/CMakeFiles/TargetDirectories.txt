@@ -1,0 +1,3 @@
+/home/yansa/Yansa_Vision/build/VmbCPP/CMakeFiles/rebuild_cache.dir
+/home/yansa/Yansa_Vision/build/VmbCPP/CMakeFiles/edit_cache.dir
+/home/yansa/Yansa_Vision/build/VmbCPP/CMakeFiles/VmbCPP.dir

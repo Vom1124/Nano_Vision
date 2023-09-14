@@ -1,0 +1,10 @@
+[2.682s] Invoking command in '/home/yansa/Yansa_Vision/build/USBCamera': PYTHONPATH=/home/yansa/Yansa_Vision/build/USBCamera/prefix_override:/home/yansa/Yansa_Vision/install/USBCamera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yansa/Yansa_Vision/build/USBCamera/build --no-deps install_data
+[3.639s] running develop
+[4.188s] running egg_info
+[4.188s] writing USBCamera.egg-info/PKG-INFO
+[4.189s] writing dependency_links to USBCamera.egg-info/dependency_links.txt
+[4.190s] writing entry points to USBCamera.egg-info/entry_points.txt
+[4.191s] writing requirements to USBCamera.egg-info/requires.txt
+[4.191s] writing top-level names to USBCamera.egg-info/top_level.txt
+[4.343s] error: package directory 'USBCamera' does not exist
+[4.453s] Invoked command in '/home/yansa/Yansa_Vision/build/USBCamera' returned '1': PYTHONPATH=/home/yansa/Yansa_Vision/build/USBCamera/prefix_override:/home/yansa/Yansa_Vision/install/USBCamera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yansa/Yansa_Vision/build/USBCamera/build --no-deps install_data

@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wl,-rpath,'$ORIGIN' -rdynamic CMakeFiles/ListFeatures_VmbC.dir/main.c.o CMakeFiles/ListFeatures_VmbC.dir/ListFeatures.c.o  -o ListFeatures_VmbC  -Wl,-rpath,/home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/lib /home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/lib/libVmbC.so ../AsynchronousGrab/VmbCExamplesCommon_build/libVmbCExamplesCommon.a 

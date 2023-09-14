@@ -1,0 +1,4 @@
+Invoking command in '/home/yansa/Yansa_Vision/build/VmbCPP': /usr/bin/cmake /home/yansa/Yansa_Vision/VimbaX_2023-1/api/source/VmbCPP -DCMAKE_INSTALL_PREFIX=/home/yansa/Yansa_Vision/install/VmbCPP
+Invoked command in '/home/yansa/Yansa_Vision/build/VmbCPP' returned '0': /usr/bin/cmake /home/yansa/Yansa_Vision/VimbaX_2023-1/api/source/VmbCPP -DCMAKE_INSTALL_PREFIX=/home/yansa/Yansa_Vision/install/VmbCPP
+Invoking command in '/home/yansa/Yansa_Vision/build/VmbCPP': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCPP -- -j4 -l4
+Invoked command in '/home/yansa/Yansa_Vision/build/VmbCPP' returned '0': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCPP -- -j4 -l4

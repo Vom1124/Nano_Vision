@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing IRCamera.egg-info/PKG-INFO
+writing dependency_links to IRCamera.egg-info/dependency_links.txt
+writing entry points to IRCamera.egg-info/entry_points.txt
+writing requirements to IRCamera.egg-info/requires.txt
+writing top-level names to IRCamera.egg-info/top_level.txt
+reading manifest file 'IRCamera.egg-info/SOURCES.txt'
+writing manifest file 'IRCamera.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yansa/Yansa_Vision/install/IRCamera/lib/python3.8/site-packages/IRCamera.egg-link (link to .)
+Installing ir_pub script to /home/yansa/Yansa_Vision/install/IRCamera/lib/IRCamera
+Installing ir_sub script to /home/yansa/Yansa_Vision/install/IRCamera/lib/IRCamera
+
+Installed /home/yansa/Yansa_Vision/build/IRCamera
+running install_data
+copying package.xml -> /home/yansa/Yansa_Vision/install/IRCamera/share/IRCamera

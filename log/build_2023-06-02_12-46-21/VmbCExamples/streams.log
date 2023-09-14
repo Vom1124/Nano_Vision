@@ -1,0 +1,85 @@
+[1.307s] Invoking command in '/home/yansa/Yansa_Vision/build/VmbCExamples': /usr/bin/cmake /home/yansa/Yansa_Vision/VimbaX_2023-1/api/examples/VmbC -DCMAKE_INSTALL_PREFIX=/home/yansa/Yansa_Vision/install/VmbCExamples
+[1.840s] -- The C compiler identification is GNU 9.4.0
+[2.521s] -- The CXX compiler identification is GNU 9.4.0
+[2.591s] -- Check for working C compiler: /usr/bin/cc
+[3.159s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.163s] -- Detecting C compiler ABI info
+[3.695s] -- Detecting C compiler ABI info - done
+[3.793s] -- Detecting C compile features
+[3.796s] -- Detecting C compile features - done
+[3.823s] -- Check for working CXX compiler: /usr/bin/c++
+[4.374s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.378s] -- Detecting CXX compiler ABI info
+[4.821s] -- Detecting CXX compiler ABI info - done
+[4.905s] -- Detecting CXX compile features
+[4.910s] -- Detecting CXX compile features - done
+[5.143s] -- Configuring done
+[5.241s] -- Generating done
+[5.251s] -- Build files have been written to: /home/yansa/Yansa_Vision/build/VmbCExamples
+[5.286s] Invoked command in '/home/yansa/Yansa_Vision/build/VmbCExamples' returned '0': /usr/bin/cmake /home/yansa/Yansa_Vision/VimbaX_2023-1/api/examples/VmbC -DCMAKE_INSTALL_PREFIX=/home/yansa/Yansa_Vision/install/VmbCExamples
+[5.290s] Invoking command in '/home/yansa/Yansa_Vision/build/VmbCExamples': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCExamples -- -j4 -l4
+[5.716s] [35m[1mScanning dependencies of target VmbCExamplesCommon[0m
+[5.856s] [  2%] [34m[1mGenerating ui_AsynchronousGrabGui.h[0m
+[5.877s] [  4%] [34m[1mGenerating UI/moc_ImageLabel.cpp[0m
+[5.940s] [  8%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/VmbThreads_Linux.c.o[0m
+[5.943s] [  8%] [34m[1mGenerating UI/moc_MainWindow.cpp[0m
+[6.214s] [ 10%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/AccessModeToString.c.o[0m
+[6.296s] [ 12%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/ErrorCodeToMessage.c.o[0m
+[6.664s] [ 14%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/IpAddressToHostByteOrderedInt.c.o[0m
+[6.835s] [ 16%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/ListCameras.c.o[0m
+[6.867s] [ 18%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/ListInterfaces.c.o[0m
+[6.898s] [35m[1mScanning dependencies of target AsynchronousGrabQt_VmbC[0m
+[7.281s] [ 20%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/ListTransportLayers.c.o[0m
+[7.405s] [ 22%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/PrintVmbVersion.c.o[0m
+[7.452s] [ 25%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/TransportLayerTypeToString.c.o[0m
+[7.646s] [ 27%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/AcquisitionManager.cpp.o[0m
+[7.868s] [ 29%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/Image.cpp.o[0m
+[7.898s] [ 31%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/ApiController.cpp.o[0m
+[7.930s] [ 33%] [32m[1mLinking C static library libVmbCExamplesCommon.a[0m
+[8.493s] [ 33%] Built target VmbCExamplesCommon
+[8.612s] [ 35%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/ImageTranscoder.cpp.o[0m
+[10.568s] [ 37%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/LogEntryListModel.cpp.o[0m
+[21.142s] [ 39%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/ModuleTreeModel.cpp.o[0m
+[26.839s] [ 41%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/ModuleData.cpp.o[0m
+[27.654s] [ 43%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/VmbException.cpp.o[0m
+[28.542s] [ 45%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/VmbLibraryLifetime.cpp.o[0m
+[29.359s] [ 47%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/main.cpp.o[0m
+[34.653s] [ 50%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/UI/moc_MainWindow.cpp.o[0m
+[39.572s] [ 52%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/UI/moc_ImageLabel.cpp.o[0m
+[43.703s] [ 54%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/UI/MainWindow.cpp.o[0m
+[52.369s] [ 56%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/UI/ImageLabel.cpp.o[0m
+[57.125s] [ 58%] [32m[1mLinking CXX executable AsynchronousGrabQt_VmbC[0m
+[58.507s] [ 58%] Built target AsynchronousGrabQt_VmbC
+[58.547s] [35m[1mScanning dependencies of target ListCameras_VmbC[0m
+[58.606s] [ 60%] [32mBuilding C object ListCameras/CMakeFiles/ListCameras_VmbC.dir/main.c.o[0m
+[58.727s] [ 62%] [32mBuilding C object ListCameras/CMakeFiles/ListCameras_VmbC.dir/ListCamerasProg.c.o[0m
+[58.907s] [ 64%] [32m[1mLinking C executable ListCameras_VmbC[0m
+[59.198s] [ 64%] Built target ListCameras_VmbC
+[59.239s] [35m[1mScanning dependencies of target ChunkAccess_VmbC[0m
+[59.296s] [ 66%] [32mBuilding C object ChunkAccess/CMakeFiles/ChunkAccess_VmbC.dir/main.c.o[0m
+[59.416s] [ 68%] [32mBuilding C object ChunkAccess/CMakeFiles/ChunkAccess_VmbC.dir/ChunkAccessProg.c.o[0m
+[59.625s] [ 70%] [32m[1mLinking C executable ChunkAccess_VmbC[0m
+[59.905s] [ 70%] Built target ChunkAccess_VmbC
+[59.947s] [35m[1mScanning dependencies of target ConfigIp_VmbC[0m
+[60.010s] [ 72%] [32mBuilding C object ConfigIp/CMakeFiles/ConfigIp_VmbC.dir/main.c.o[0m
+[60.152s] [ 75%] [32mBuilding C object ConfigIp/CMakeFiles/ConfigIp_VmbC.dir/ConfigIp.c.o[0m
+[60.426s] [ 77%] [32mBuilding C object ConfigIp/CMakeFiles/ConfigIp_VmbC.dir/ConfigIpProg.c.o[0m
+[60.557s] [ 79%] [32m[1mLinking C executable ConfigIp_VmbC[0m
+[60.847s] [ 79%] Built target ConfigIp_VmbC
+[60.895s] [35m[1mScanning dependencies of target ForceIp_VmbC[0m
+[60.949s] [ 81%] [32mBuilding C object ForceIp/CMakeFiles/ForceIp_VmbC.dir/main.c.o[0m
+[61.067s] [ 83%] [32mBuilding C object ForceIp/CMakeFiles/ForceIp_VmbC.dir/ForceIp.c.o[0m
+[61.373s] [ 85%] [32mBuilding C object ForceIp/CMakeFiles/ForceIp_VmbC.dir/ForceIpProg.c.o[0m
+[61.500s] [ 87%] [32m[1mLinking C executable ForceIp_VmbC[0m
+[61.772s] [ 87%] Built target ForceIp_VmbC
+[61.821s] [35m[1mScanning dependencies of target ListFeatures_VmbC[0m
+[61.880s] [ 89%] [32mBuilding C object ListFeatures/CMakeFiles/ListFeatures_VmbC.dir/main.c.o[0m
+[62.097s] [ 91%] [32mBuilding C object ListFeatures/CMakeFiles/ListFeatures_VmbC.dir/ListFeatures.c.o[0m
+[62.348s] [ 93%] [32m[1mLinking C executable ListFeatures_VmbC[0m
+[62.632s] [ 93%] Built target ListFeatures_VmbC
+[62.670s] [35m[1mScanning dependencies of target AsynchronousGrab_VmbC[0m
+[62.737s] [ 95%] [32mBuilding C object AsynchronousGrab/CMakeFiles/AsynchronousGrab_VmbC.dir/main.c.o[0m
+[62.917s] [ 97%] [32mBuilding C object AsynchronousGrab/CMakeFiles/AsynchronousGrab_VmbC.dir/AsynchronousGrab.c.o[0m
+[63.197s] [100%] [32m[1mLinking C executable AsynchronousGrab_VmbC[0m
+[63.468s] [100%] Built target AsynchronousGrab_VmbC
+[63.524s] Invoked command in '/home/yansa/Yansa_Vision/build/VmbCExamples' returned '0': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCExamples -- -j4 -l4

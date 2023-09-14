@@ -1,0 +1,20 @@
+[4.242s] Invoking command in '/home/yansa/Yansa_Vision/build/IRCamera': PYTHONPATH=/home/yansa/Yansa_Vision/build/IRCamera/prefix_override:/home/yansa/Yansa_Vision/install/IRCamera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yansa/Yansa_Vision/build/IRCamera/build --no-deps install_data
+[5.572s] running develop
+[6.612s] running egg_info
+[6.625s] creating IRCamera.egg-info
+[6.626s] writing IRCamera.egg-info/PKG-INFO
+[6.627s] writing dependency_links to IRCamera.egg-info/dependency_links.txt
+[6.628s] writing entry points to IRCamera.egg-info/entry_points.txt
+[6.628s] writing requirements to IRCamera.egg-info/requires.txt
+[6.629s] writing top-level names to IRCamera.egg-info/top_level.txt
+[6.634s] writing manifest file 'IRCamera.egg-info/SOURCES.txt'
+[6.821s] reading manifest file 'IRCamera.egg-info/SOURCES.txt'
+[6.824s] writing manifest file 'IRCamera.egg-info/SOURCES.txt'
+[7.051s] running build_ext
+[7.054s] Creating /home/yansa/Yansa_Vision/install/IRCamera/lib/python3.8/site-packages/IRCamera.egg-link (link to .)
+[7.058s] Installing ir_pub script to /home/yansa/Yansa_Vision/install/IRCamera/lib/IRCamera
+[7.060s] Installing ir_sub script to /home/yansa/Yansa_Vision/install/IRCamera/lib/IRCamera
+[7.066s] 
+[7.067s] Installed /home/yansa/Yansa_Vision/build/IRCamera
+[7.068s] running install_data
+[7.591s] Invoked command in '/home/yansa/Yansa_Vision/build/IRCamera' returned '0': PYTHONPATH=/home/yansa/Yansa_Vision/build/IRCamera/prefix_override:/home/yansa/Yansa_Vision/install/IRCamera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yansa/Yansa_Vision/build/IRCamera/build --no-deps install_data

@@ -1,0 +1,2 @@
+Invoking command in '/home/yansa/Yansa_Vision/build/VmbCPPExamples': /usr/bin/cmake /home/yansa/Yansa_Vision/VimbaX_2023-1/api/examples/VmbCPP -DCMAKE_INSTALL_PREFIX=/home/yansa/Yansa_Vision/install/VmbCPPExamples
+Invoked command in '/home/yansa/Yansa_Vision/build/VmbCPPExamples' returned '-2': /usr/bin/cmake /home/yansa/Yansa_Vision/VimbaX_2023-1/api/examples/VmbCPP -DCMAKE_INSTALL_PREFIX=/home/yansa/Yansa_Vision/install/VmbCPPExamples

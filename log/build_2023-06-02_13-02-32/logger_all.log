@@ -1,0 +1,1059 @@
+[1.348s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.348s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7c7a7550>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7c7a7550>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7c7a7a90>)
+[1.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.466s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yansa/Yansa_Vision'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.558s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.558s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.558s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRCamera) by extensions ['ignore', 'ignore_ament_install']
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRCamera) by extension 'ignore'
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRCamera) by extension 'ignore_ament_install'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRCamera) by extensions ['colcon_pkg']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRCamera) by extension 'colcon_pkg'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRCamera) by extensions ['colcon_meta']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRCamera) by extension 'colcon_meta'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRCamera) by extensions ['ros']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRCamera) by extension 'ros'
+[1.574s] DEBUG:colcon.colcon_core.package_identification:Package 'src/IRCamera' with type 'ros.ament_python' and name 'IRCamera'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/RGBCamera) by extensions ['ignore', 'ignore_ament_install']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/RGBCamera) by extension 'ignore'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/RGBCamera) by extension 'ignore_ament_install'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/RGBCamera) by extensions ['colcon_pkg']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/RGBCamera) by extension 'colcon_pkg'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/RGBCamera) by extensions ['colcon_meta']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/RGBCamera) by extension 'colcon_meta'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/RGBCamera) by extensions ['ros']
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/RGBCamera) by extension 'ros'
+[1.581s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RGBCamera' with type 'ros.ament_python' and name 'RGBCamera'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1) by extensions ['ignore', 'ignore_ament_install']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1) by extension 'ignore'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1) by extension 'ignore_ament_install'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1) by extensions ['colcon_pkg']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1) by extension 'colcon_pkg'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1) by extensions ['colcon_meta']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1) by extension 'colcon_meta'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1) by extensions ['ros']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1) by extension 'ros'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1) by extensions ['cmake', 'python']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1) by extension 'cmake'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1) by extension 'python'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1) by extensions ['python_setup_py']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1) by extension 'python_setup_py'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api) by extensions ['ignore', 'ignore_ament_install']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api) by extension 'ignore'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api) by extension 'ignore_ament_install'
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api) by extensions ['colcon_pkg']
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api) by extension 'colcon_pkg'
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api) by extensions ['colcon_meta']
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api) by extension 'colcon_meta'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api) by extensions ['ros']
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api) by extension 'ros'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api) by extensions ['cmake', 'python']
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api) by extension 'cmake'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api) by extension 'python'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api) by extensions ['python_setup_py']
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api) by extension 'python_setup_py'
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples) by extensions ['ignore', 'ignore_ament_install']
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples) by extension 'ignore'
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples) by extension 'ignore_ament_install'
+[1.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples) by extensions ['colcon_pkg']
+[1.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples) by extension 'colcon_pkg'
+[1.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples) by extensions ['colcon_meta']
+[1.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples) by extension 'colcon_meta'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples) by extensions ['ros']
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples) by extension 'ros'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples) by extensions ['cmake', 'python']
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples) by extension 'cmake'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples) by extension 'python'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples) by extensions ['python_setup_py']
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples) by extension 'python_setup_py'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbC) by extensions ['ignore', 'ignore_ament_install']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbC) by extension 'ignore'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbC) by extension 'ignore_ament_install'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbC) by extensions ['colcon_pkg']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbC) by extension 'colcon_pkg'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbC) by extensions ['colcon_meta']
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbC) by extension 'colcon_meta'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbC) by extensions ['ros']
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbC) by extension 'ros'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbC) by extensions ['cmake', 'python']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbC) by extension 'cmake'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbC) by extension 'python'
+[1.611s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VimbaX_2023-1/api/examples/VmbC' with type 'cmake' and name 'VmbCExamples'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbCPP) by extensions ['ignore', 'ignore_ament_install']
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbCPP) by extension 'ignore'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbCPP) by extension 'ignore_ament_install'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbCPP) by extensions ['colcon_pkg']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbCPP) by extension 'colcon_pkg'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbCPP) by extensions ['colcon_meta']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbCPP) by extension 'colcon_meta'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbCPP) by extensions ['ros']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbCPP) by extension 'ros'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbCPP) by extensions ['cmake', 'python']
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbCPP) by extension 'cmake'
+[1.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbCPP) by extension 'python'
+[1.618s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VimbaX_2023-1/api/examples/VmbCPP' with type 'cmake' and name 'VmbCPPExamples'
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbPy) by extensions ['ignore', 'ignore_ament_install']
+[1.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbPy) by extension 'ignore'
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbPy) by extension 'ignore_ament_install'
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbPy) by extensions ['colcon_pkg']
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbPy) by extension 'colcon_pkg'
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbPy) by extensions ['colcon_meta']
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbPy) by extension 'colcon_meta'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbPy) by extensions ['ros']
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbPy) by extension 'ros'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbPy) by extensions ['cmake', 'python']
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbPy) by extension 'cmake'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbPy) by extension 'python'
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbPy) by extensions ['python_setup_py']
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/VmbPy) by extension 'python_setup_py'
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/cmake) by extensions ['ignore', 'ignore_ament_install']
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/cmake) by extension 'ignore'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/cmake) by extension 'ignore_ament_install'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/cmake) by extensions ['colcon_pkg']
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/cmake) by extension 'colcon_pkg'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/cmake) by extensions ['colcon_meta']
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/cmake) by extension 'colcon_meta'
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/cmake) by extensions ['ros']
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/cmake) by extension 'ros'
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/cmake) by extensions ['cmake', 'python']
+[1.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/cmake) by extension 'cmake'
+[1.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/cmake) by extension 'python'
+[1.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/cmake) by extensions ['python_setup_py']
+[1.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/examples/cmake) by extension 'python_setup_py'
+[1.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include) by extensions ['ignore', 'ignore_ament_install']
+[1.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include) by extension 'ignore'
+[1.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include) by extension 'ignore_ament_install'
+[1.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include) by extensions ['colcon_pkg']
+[1.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include) by extension 'colcon_pkg'
+[1.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include) by extensions ['colcon_meta']
+[1.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include) by extension 'colcon_meta'
+[1.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include) by extensions ['ros']
+[1.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include) by extension 'ros'
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include) by extensions ['cmake', 'python']
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include) by extension 'cmake'
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include) by extension 'python'
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include) by extensions ['python_setup_py']
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include) by extension 'python_setup_py'
+[1.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbC) by extensions ['ignore', 'ignore_ament_install']
+[1.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbC) by extension 'ignore'
+[1.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbC) by extension 'ignore_ament_install'
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbC) by extensions ['colcon_pkg']
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbC) by extension 'colcon_pkg'
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbC) by extensions ['colcon_meta']
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbC) by extension 'colcon_meta'
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbC) by extensions ['ros']
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbC) by extension 'ros'
+[1.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbC) by extensions ['cmake', 'python']
+[1.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbC) by extension 'cmake'
+[1.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbC) by extension 'python'
+[1.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbC) by extensions ['python_setup_py']
+[1.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbC) by extension 'python_setup_py'
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPP) by extensions ['ignore', 'ignore_ament_install']
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPP) by extension 'ignore'
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPP) by extension 'ignore_ament_install'
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPP) by extensions ['colcon_pkg']
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPP) by extension 'colcon_pkg'
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPP) by extensions ['colcon_meta']
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPP) by extension 'colcon_meta'
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPP) by extensions ['ros']
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPP) by extension 'ros'
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPP) by extensions ['cmake', 'python']
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPP) by extension 'cmake'
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPP) by extension 'python'
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPP) by extensions ['python_setup_py']
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPP) by extension 'python_setup_py'
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPPConfig) by extensions ['ignore', 'ignore_ament_install']
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPPConfig) by extension 'ignore'
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPPConfig) by extension 'ignore_ament_install'
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPPConfig) by extensions ['colcon_pkg']
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPPConfig) by extension 'colcon_pkg'
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPPConfig) by extensions ['colcon_meta']
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPPConfig) by extension 'colcon_meta'
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPPConfig) by extensions ['ros']
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPPConfig) by extension 'ros'
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPPConfig) by extensions ['cmake', 'python']
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPPConfig) by extension 'cmake'
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPPConfig) by extension 'python'
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPPConfig) by extensions ['python_setup_py']
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbCPPConfig) by extension 'python_setup_py'
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbImageTransform) by extensions ['ignore', 'ignore_ament_install']
+[1.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbImageTransform) by extension 'ignore'
+[1.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbImageTransform) by extension 'ignore_ament_install'
+[1.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbImageTransform) by extensions ['colcon_pkg']
+[1.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbImageTransform) by extension 'colcon_pkg'
+[1.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbImageTransform) by extensions ['colcon_meta']
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbImageTransform) by extension 'colcon_meta'
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbImageTransform) by extensions ['ros']
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbImageTransform) by extension 'ros'
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbImageTransform) by extensions ['cmake', 'python']
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbImageTransform) by extension 'cmake'
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbImageTransform) by extension 'python'
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbImageTransform) by extensions ['python_setup_py']
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/include/VmbImageTransform) by extension 'python_setup_py'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib) by extensions ['ignore', 'ignore_ament_install']
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib) by extension 'ignore'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib) by extension 'ignore_ament_install'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib) by extensions ['colcon_pkg']
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib) by extension 'colcon_pkg'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib) by extensions ['colcon_meta']
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib) by extension 'colcon_meta'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib) by extensions ['ros']
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib) by extension 'ros'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib) by extensions ['cmake', 'python']
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib) by extension 'cmake'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib) by extension 'python'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib) by extensions ['python_setup_py']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib) by extension 'python_setup_py'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/GenICam) by extensions ['ignore', 'ignore_ament_install']
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/GenICam) by extension 'ignore'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/GenICam) by extension 'ignore_ament_install'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/GenICam) by extensions ['colcon_pkg']
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/GenICam) by extension 'colcon_pkg'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/GenICam) by extensions ['colcon_meta']
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/GenICam) by extension 'colcon_meta'
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/GenICam) by extensions ['ros']
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/GenICam) by extension 'ros'
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/GenICam) by extensions ['cmake', 'python']
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/GenICam) by extension 'cmake'
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/GenICam) by extension 'python'
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/GenICam) by extensions ['python_setup_py']
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/GenICam) by extension 'python_setup_py'
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake) by extensions ['ignore', 'ignore_ament_install']
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake) by extension 'ignore'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake) by extension 'ignore_ament_install'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake) by extensions ['colcon_pkg']
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake) by extension 'colcon_pkg'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake) by extensions ['colcon_meta']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake) by extension 'colcon_meta'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake) by extensions ['ros']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake) by extension 'ros'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake) by extensions ['cmake', 'python']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake) by extension 'cmake'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake) by extension 'python'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake) by extensions ['python_setup_py']
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake) by extension 'python_setup_py'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb) by extensions ['ignore', 'ignore_ament_install']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb) by extension 'ignore'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb) by extension 'ignore_ament_install'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb) by extensions ['colcon_pkg']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb) by extension 'colcon_pkg'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb) by extensions ['colcon_meta']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb) by extension 'colcon_meta'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb) by extensions ['ros']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb) by extension 'ros'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb) by extensions ['cmake', 'python']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb) by extension 'cmake'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb) by extension 'python'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb) by extensions ['python_setup_py']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb) by extension 'python_setup_py'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb/configs) by extensions ['ignore', 'ignore_ament_install']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb/configs) by extension 'ignore'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb/configs) by extension 'ignore_ament_install'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb/configs) by extensions ['colcon_pkg']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb/configs) by extension 'colcon_pkg'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb/configs) by extensions ['colcon_meta']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb/configs) by extension 'colcon_meta'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb/configs) by extensions ['ros']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb/configs) by extension 'ros'
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb/configs) by extensions ['cmake', 'python']
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb/configs) by extension 'cmake'
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb/configs) by extension 'python'
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb/configs) by extensions ['python_setup_py']
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/lib/cmake/vmb/configs) by extension 'python_setup_py'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/python) by extensions ['ignore', 'ignore_ament_install']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/python) by extension 'ignore'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/python) by extension 'ignore_ament_install'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/python) by extensions ['colcon_pkg']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/python) by extension 'colcon_pkg'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/python) by extensions ['colcon_meta']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/python) by extension 'colcon_meta'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/python) by extensions ['ros']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/python) by extension 'ros'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/python) by extensions ['cmake', 'python']
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/python) by extension 'cmake'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/python) by extension 'python'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/python) by extensions ['python_setup_py']
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/python) by extension 'python_setup_py'
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source) by extensions ['ignore', 'ignore_ament_install']
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source) by extension 'ignore'
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source) by extension 'ignore_ament_install'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source) by extensions ['colcon_pkg']
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source) by extension 'colcon_pkg'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source) by extensions ['colcon_meta']
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source) by extension 'colcon_meta'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source) by extensions ['ros']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source) by extension 'ros'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source) by extensions ['cmake', 'python']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source) by extension 'cmake'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source) by extension 'python'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source) by extensions ['python_setup_py']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source) by extension 'python_setup_py'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source/VmbCPP) by extensions ['ignore', 'ignore_ament_install']
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source/VmbCPP) by extension 'ignore'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source/VmbCPP) by extension 'ignore_ament_install'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source/VmbCPP) by extensions ['colcon_pkg']
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source/VmbCPP) by extension 'colcon_pkg'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source/VmbCPP) by extensions ['colcon_meta']
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source/VmbCPP) by extension 'colcon_meta'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source/VmbCPP) by extensions ['ros']
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source/VmbCPP) by extension 'ros'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source/VmbCPP) by extensions ['cmake', 'python']
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source/VmbCPP) by extension 'cmake'
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/api/source/VmbCPP) by extension 'python'
+[1.668s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VimbaX_2023-1/api/source/VmbCPP' with type 'cmake' and name 'VmbCPP'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin) by extensions ['ignore', 'ignore_ament_install']
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin) by extension 'ignore'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin) by extension 'ignore_ament_install'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin) by extensions ['colcon_pkg']
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin) by extension 'colcon_pkg'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin) by extensions ['colcon_meta']
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin) by extension 'colcon_meta'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin) by extensions ['ros']
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin) by extension 'ros'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin) by extensions ['cmake', 'python']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin) by extension 'cmake'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin) by extension 'python'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin) by extensions ['python_setup_py']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin) by extension 'python_setup_py'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/GenICam) by extensions ['ignore', 'ignore_ament_install']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/GenICam) by extension 'ignore'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/GenICam) by extension 'ignore_ament_install'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/GenICam) by extensions ['colcon_pkg']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/GenICam) by extension 'colcon_pkg'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/GenICam) by extensions ['colcon_meta']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/GenICam) by extension 'colcon_meta'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/GenICam) by extensions ['ros']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/GenICam) by extension 'ros'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/GenICam) by extensions ['cmake', 'python']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/GenICam) by extension 'cmake'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/GenICam) by extension 'python'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/GenICam) by extensions ['python_setup_py']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/GenICam) by extension 'python_setup_py'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/imageformats) by extensions ['ignore', 'ignore_ament_install']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/imageformats) by extension 'ignore'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/imageformats) by extension 'ignore_ament_install'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/imageformats) by extensions ['colcon_pkg']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/imageformats) by extension 'colcon_pkg'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/imageformats) by extensions ['colcon_meta']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/imageformats) by extension 'colcon_meta'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/imageformats) by extensions ['ros']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/imageformats) by extension 'ros'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/imageformats) by extensions ['cmake', 'python']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/imageformats) by extension 'cmake'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/imageformats) by extension 'python'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/imageformats) by extensions ['python_setup_py']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/imageformats) by extension 'python_setup_py'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/platforms) by extensions ['ignore', 'ignore_ament_install']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/platforms) by extension 'ignore'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/platforms) by extension 'ignore_ament_install'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/platforms) by extensions ['colcon_pkg']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/platforms) by extension 'colcon_pkg'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/platforms) by extensions ['colcon_meta']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/platforms) by extension 'colcon_meta'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/platforms) by extensions ['ros']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/platforms) by extension 'ros'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/platforms) by extensions ['cmake', 'python']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/platforms) by extension 'cmake'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/platforms) by extension 'python'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/platforms) by extensions ['python_setup_py']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/platforms) by extension 'python_setup_py'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/plugins) by extension 'ignore'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/plugins) by extension 'ignore_ament_install'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/plugins) by extensions ['colcon_pkg']
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/plugins) by extension 'colcon_pkg'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/plugins) by extensions ['colcon_meta']
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/plugins) by extension 'colcon_meta'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/plugins) by extensions ['ros']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/plugins) by extension 'ros'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/plugins) by extensions ['cmake', 'python']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/plugins) by extension 'cmake'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/plugins) by extension 'python'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/plugins) by extensions ['python_setup_py']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/bin/plugins) by extension 'python_setup_py'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/cti) by extensions ['ignore', 'ignore_ament_install']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/cti) by extension 'ignore'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/cti) by extension 'ignore_ament_install'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/cti) by extensions ['colcon_pkg']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/cti) by extension 'colcon_pkg'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/cti) by extensions ['colcon_meta']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/cti) by extension 'colcon_meta'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/cti) by extensions ['ros']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/cti) by extension 'ros'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/cti) by extensions ['cmake', 'python']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/cti) by extension 'cmake'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/cti) by extension 'python'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/cti) by extensions ['python_setup_py']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/cti) by extension 'python_setup_py'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc) by extensions ['ignore', 'ignore_ament_install']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc) by extension 'ignore'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc) by extension 'ignore_ament_install'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc) by extensions ['colcon_pkg']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc) by extension 'colcon_pkg'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc) by extensions ['colcon_meta']
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc) by extension 'colcon_meta'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc) by extensions ['ros']
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc) by extension 'ros'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc) by extensions ['cmake', 'python']
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc) by extension 'cmake'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc) by extension 'python'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc) by extensions ['python_setup_py']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc) by extension 'python_setup_py'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation) by extensions ['ignore', 'ignore_ament_install']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation) by extension 'ignore'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation) by extension 'ignore_ament_install'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation) by extensions ['colcon_pkg']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation) by extension 'colcon_pkg'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation) by extensions ['colcon_meta']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation) by extension 'colcon_meta'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation) by extensions ['ros']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation) by extension 'ros'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation) by extensions ['cmake', 'python']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation) by extension 'cmake'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation) by extension 'python'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation) by extensions ['python_setup_py']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation) by extension 'python_setup_py'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads) by extensions ['ignore', 'ignore_ament_install']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads) by extension 'ignore'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads) by extension 'ignore_ament_install'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads) by extensions ['colcon_pkg']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads) by extension 'colcon_pkg'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads) by extensions ['colcon_meta']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads) by extension 'colcon_meta'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads) by extensions ['ros']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads) by extension 'ros'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads) by extensions ['cmake', 'python']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads) by extension 'cmake'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads) by extension 'python'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads) by extensions ['python_setup_py']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads) by extension 'python_setup_py'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/3f0807fa16ecb879f8d12407155e197c) by extensions ['ignore', 'ignore_ament_install']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/3f0807fa16ecb879f8d12407155e197c) by extension 'ignore'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/3f0807fa16ecb879f8d12407155e197c) by extension 'ignore_ament_install'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/3f0807fa16ecb879f8d12407155e197c) by extensions ['colcon_pkg']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/3f0807fa16ecb879f8d12407155e197c) by extension 'colcon_pkg'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/3f0807fa16ecb879f8d12407155e197c) by extensions ['colcon_meta']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/3f0807fa16ecb879f8d12407155e197c) by extension 'colcon_meta'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/3f0807fa16ecb879f8d12407155e197c) by extensions ['ros']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/3f0807fa16ecb879f8d12407155e197c) by extension 'ros'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/3f0807fa16ecb879f8d12407155e197c) by extensions ['cmake', 'python']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/3f0807fa16ecb879f8d12407155e197c) by extension 'cmake'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/3f0807fa16ecb879f8d12407155e197c) by extension 'python'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/3f0807fa16ecb879f8d12407155e197c) by extensions ['python_setup_py']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/3f0807fa16ecb879f8d12407155e197c) by extension 'python_setup_py'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/881186e1f3a177c46729e78aef18f0bb) by extensions ['ignore', 'ignore_ament_install']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/881186e1f3a177c46729e78aef18f0bb) by extension 'ignore'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/881186e1f3a177c46729e78aef18f0bb) by extension 'ignore_ament_install'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/881186e1f3a177c46729e78aef18f0bb) by extensions ['colcon_pkg']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/881186e1f3a177c46729e78aef18f0bb) by extension 'colcon_pkg'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/881186e1f3a177c46729e78aef18f0bb) by extensions ['colcon_meta']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/881186e1f3a177c46729e78aef18f0bb) by extension 'colcon_meta'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/881186e1f3a177c46729e78aef18f0bb) by extensions ['ros']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/881186e1f3a177c46729e78aef18f0bb) by extension 'ros'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/881186e1f3a177c46729e78aef18f0bb) by extensions ['cmake', 'python']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/881186e1f3a177c46729e78aef18f0bb) by extension 'cmake'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/881186e1f3a177c46729e78aef18f0bb) by extension 'python'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/881186e1f3a177c46729e78aef18f0bb) by extensions ['python_setup_py']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/881186e1f3a177c46729e78aef18f0bb) by extension 'python_setup_py'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/bf68854ed599e86458e218249fd8b6f7) by extensions ['ignore', 'ignore_ament_install']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/bf68854ed599e86458e218249fd8b6f7) by extension 'ignore'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/bf68854ed599e86458e218249fd8b6f7) by extension 'ignore_ament_install'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/bf68854ed599e86458e218249fd8b6f7) by extensions ['colcon_pkg']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/bf68854ed599e86458e218249fd8b6f7) by extension 'colcon_pkg'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/bf68854ed599e86458e218249fd8b6f7) by extensions ['colcon_meta']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/bf68854ed599e86458e218249fd8b6f7) by extension 'colcon_meta'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/bf68854ed599e86458e218249fd8b6f7) by extensions ['ros']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/bf68854ed599e86458e218249fd8b6f7) by extension 'ros'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/bf68854ed599e86458e218249fd8b6f7) by extensions ['cmake', 'python']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/bf68854ed599e86458e218249fd8b6f7) by extension 'cmake'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/bf68854ed599e86458e218249fd8b6f7) by extension 'python'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/bf68854ed599e86458e218249fd8b6f7) by extensions ['python_setup_py']
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/bf68854ed599e86458e218249fd8b6f7) by extension 'python_setup_py'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/e3a7eafb0f29d7f863430387a6e66a64) by extensions ['ignore', 'ignore_ament_install']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/e3a7eafb0f29d7f863430387a6e66a64) by extension 'ignore'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/e3a7eafb0f29d7f863430387a6e66a64) by extension 'ignore_ament_install'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/e3a7eafb0f29d7f863430387a6e66a64) by extensions ['colcon_pkg']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/e3a7eafb0f29d7f863430387a6e66a64) by extension 'colcon_pkg'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/e3a7eafb0f29d7f863430387a6e66a64) by extensions ['colcon_meta']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/e3a7eafb0f29d7f863430387a6e66a64) by extension 'colcon_meta'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/e3a7eafb0f29d7f863430387a6e66a64) by extensions ['ros']
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/e3a7eafb0f29d7f863430387a6e66a64) by extension 'ros'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/e3a7eafb0f29d7f863430387a6e66a64) by extensions ['cmake', 'python']
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/e3a7eafb0f29d7f863430387a6e66a64) by extension 'cmake'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/e3a7eafb0f29d7f863430387a6e66a64) by extension 'python'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/e3a7eafb0f29d7f863430387a6e66a64) by extensions ['python_setup_py']
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/e3a7eafb0f29d7f863430387a6e66a64) by extension 'python_setup_py'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f57ddc1ca0abe4ab7b2b54bc303a4bfb) by extensions ['ignore', 'ignore_ament_install']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f57ddc1ca0abe4ab7b2b54bc303a4bfb) by extension 'ignore'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f57ddc1ca0abe4ab7b2b54bc303a4bfb) by extension 'ignore_ament_install'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f57ddc1ca0abe4ab7b2b54bc303a4bfb) by extensions ['colcon_pkg']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f57ddc1ca0abe4ab7b2b54bc303a4bfb) by extension 'colcon_pkg'
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f57ddc1ca0abe4ab7b2b54bc303a4bfb) by extensions ['colcon_meta']
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f57ddc1ca0abe4ab7b2b54bc303a4bfb) by extension 'colcon_meta'
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f57ddc1ca0abe4ab7b2b54bc303a4bfb) by extensions ['ros']
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f57ddc1ca0abe4ab7b2b54bc303a4bfb) by extension 'ros'
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f57ddc1ca0abe4ab7b2b54bc303a4bfb) by extensions ['cmake', 'python']
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f57ddc1ca0abe4ab7b2b54bc303a4bfb) by extension 'cmake'
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f57ddc1ca0abe4ab7b2b54bc303a4bfb) by extension 'python'
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f57ddc1ca0abe4ab7b2b54bc303a4bfb) by extensions ['python_setup_py']
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f57ddc1ca0abe4ab7b2b54bc303a4bfb) by extension 'python_setup_py'
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f5ac377a116438efb50c5455094dbc6f) by extensions ['ignore', 'ignore_ament_install']
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f5ac377a116438efb50c5455094dbc6f) by extension 'ignore'
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f5ac377a116438efb50c5455094dbc6f) by extension 'ignore_ament_install'
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f5ac377a116438efb50c5455094dbc6f) by extensions ['colcon_pkg']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f5ac377a116438efb50c5455094dbc6f) by extension 'colcon_pkg'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f5ac377a116438efb50c5455094dbc6f) by extensions ['colcon_meta']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f5ac377a116438efb50c5455094dbc6f) by extension 'colcon_meta'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f5ac377a116438efb50c5455094dbc6f) by extensions ['ros']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f5ac377a116438efb50c5455094dbc6f) by extension 'ros'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f5ac377a116438efb50c5455094dbc6f) by extensions ['cmake', 'python']
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f5ac377a116438efb50c5455094dbc6f) by extension 'cmake'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f5ac377a116438efb50c5455094dbc6f) by extension 'python'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f5ac377a116438efb50c5455094dbc6f) by extensions ['python_setup_py']
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_downloads/f5ac377a116438efb50c5455094dbc6f) by extension 'python_setup_py'
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_images) by extensions ['ignore', 'ignore_ament_install']
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_images) by extension 'ignore'
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_images) by extension 'ignore_ament_install'
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_images) by extensions ['colcon_pkg']
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_images) by extension 'colcon_pkg'
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_images) by extensions ['colcon_meta']
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_images) by extension 'colcon_meta'
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_images) by extensions ['ros']
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_images) by extension 'ros'
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_images) by extensions ['cmake', 'python']
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_images) by extension 'cmake'
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_images) by extension 'python'
+[1.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_images) by extensions ['python_setup_py']
+[1.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_images) by extension 'python_setup_py'
+[1.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static) by extensions ['ignore', 'ignore_ament_install']
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static) by extension 'ignore'
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static) by extension 'ignore_ament_install'
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static) by extensions ['colcon_pkg']
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static) by extension 'colcon_pkg'
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static) by extensions ['colcon_meta']
+[1.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static) by extension 'colcon_meta'
+[1.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static) by extensions ['ros']
+[1.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static) by extension 'ros'
+[1.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static) by extensions ['cmake', 'python']
+[1.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static) by extension 'cmake'
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static) by extension 'python'
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static) by extensions ['python_setup_py']
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static) by extension 'python_setup_py'
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css) by extensions ['ignore', 'ignore_ament_install']
+[1.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css) by extension 'ignore'
+[1.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css) by extension 'ignore_ament_install'
+[1.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css) by extensions ['colcon_pkg']
+[1.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css) by extension 'colcon_pkg'
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css) by extensions ['colcon_meta']
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css) by extension 'colcon_meta'
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css) by extensions ['ros']
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css) by extension 'ros'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css) by extensions ['cmake', 'python']
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css) by extension 'cmake'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css) by extension 'python'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css) by extensions ['python_setup_py']
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css) by extension 'python_setup_py'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css/fonts) by extensions ['ignore', 'ignore_ament_install']
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css/fonts) by extension 'ignore'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css/fonts) by extension 'ignore_ament_install'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css/fonts) by extensions ['colcon_pkg']
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css/fonts) by extension 'colcon_pkg'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css/fonts) by extensions ['colcon_meta']
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css/fonts) by extension 'colcon_meta'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css/fonts) by extensions ['ros']
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css/fonts) by extension 'ros'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css/fonts) by extensions ['cmake', 'python']
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css/fonts) by extension 'cmake'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css/fonts) by extension 'python'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css/fonts) by extensions ['python_setup_py']
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/css/fonts) by extension 'python_setup_py'
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/js) by extensions ['ignore', 'ignore_ament_install']
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/js) by extension 'ignore'
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/js) by extension 'ignore_ament_install'
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/js) by extensions ['colcon_pkg']
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/js) by extension 'colcon_pkg'
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/js) by extensions ['colcon_meta']
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/js) by extension 'colcon_meta'
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/js) by extensions ['ros']
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/js) by extension 'ros'
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/js) by extensions ['cmake', 'python']
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/js) by extension 'cmake'
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/js) by extension 'python'
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/js) by extensions ['python_setup_py']
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation/_static/js) by extension 'python_setup_py'
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation_Overview_files) by extensions ['ignore', 'ignore_ament_install']
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation_Overview_files) by extension 'ignore'
+[1.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation_Overview_files) by extension 'ignore_ament_install'
+[1.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation_Overview_files) by extensions ['colcon_pkg']
+[1.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation_Overview_files) by extension 'colcon_pkg'
+[1.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation_Overview_files) by extensions ['colcon_meta']
+[1.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation_Overview_files) by extension 'colcon_meta'
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation_Overview_files) by extensions ['ros']
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation_Overview_files) by extension 'ros'
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation_Overview_files) by extensions ['cmake', 'python']
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation_Overview_files) by extension 'cmake'
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation_Overview_files) by extension 'python'
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation_Overview_files) by extensions ['python_setup_py']
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_Documentation_Overview_files) by extension 'python_setup_py'
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes) by extensions ['ignore', 'ignore_ament_install']
+[1.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes) by extension 'ignore'
+[1.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes) by extension 'ignore_ament_install'
+[1.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes) by extensions ['colcon_pkg']
+[1.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes) by extension 'colcon_pkg'
+[1.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes) by extensions ['colcon_meta']
+[1.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes) by extension 'colcon_meta'
+[1.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes) by extensions ['ros']
+[1.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes) by extension 'ros'
+[1.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes) by extensions ['cmake', 'python']
+[1.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes) by extension 'cmake'
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes) by extension 'python'
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes) by extensions ['python_setup_py']
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes) by extension 'python_setup_py'
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static) by extensions ['ignore', 'ignore_ament_install']
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static) by extension 'ignore'
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static) by extension 'ignore_ament_install'
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static) by extensions ['colcon_pkg']
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static) by extension 'colcon_pkg'
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static) by extensions ['colcon_meta']
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static) by extension 'colcon_meta'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static) by extensions ['ros']
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static) by extension 'ros'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static) by extensions ['cmake', 'python']
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static) by extension 'cmake'
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static) by extension 'python'
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static) by extensions ['python_setup_py']
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static) by extension 'python_setup_py'
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css) by extensions ['ignore', 'ignore_ament_install']
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css) by extension 'ignore'
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css) by extension 'ignore_ament_install'
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css) by extensions ['colcon_pkg']
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css) by extension 'colcon_pkg'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css) by extensions ['colcon_meta']
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css) by extension 'colcon_meta'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css) by extensions ['ros']
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css) by extension 'ros'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css) by extensions ['cmake', 'python']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css) by extension 'cmake'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css) by extension 'python'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css) by extensions ['python_setup_py']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css) by extension 'python_setup_py'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css/fonts) by extensions ['ignore', 'ignore_ament_install']
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css/fonts) by extension 'ignore'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css/fonts) by extension 'ignore_ament_install'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css/fonts) by extensions ['colcon_pkg']
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css/fonts) by extension 'colcon_pkg'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css/fonts) by extensions ['colcon_meta']
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css/fonts) by extension 'colcon_meta'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css/fonts) by extensions ['ros']
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css/fonts) by extension 'ros'
+[1.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css/fonts) by extensions ['cmake', 'python']
+[1.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css/fonts) by extension 'cmake'
+[1.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css/fonts) by extension 'python'
+[1.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css/fonts) by extensions ['python_setup_py']
+[1.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/css/fonts) by extension 'python_setup_py'
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/js) by extensions ['ignore', 'ignore_ament_install']
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/js) by extension 'ignore'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/js) by extension 'ignore_ament_install'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/js) by extensions ['colcon_pkg']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/js) by extension 'colcon_pkg'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/js) by extensions ['colcon_meta']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/js) by extension 'colcon_meta'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/js) by extensions ['ros']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/js) by extension 'ros'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/js) by extensions ['cmake', 'python']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/js) by extension 'cmake'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/js) by extension 'python'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/js) by extensions ['python_setup_py']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VimbaX_ReleaseNotes/_static/js) by extension 'python_setup_py'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference) by extensions ['ignore', 'ignore_ament_install']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference) by extension 'ignore'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference) by extension 'ignore_ament_install'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference) by extensions ['colcon_pkg']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference) by extension 'colcon_pkg'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference) by extensions ['colcon_meta']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference) by extension 'colcon_meta'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference) by extensions ['ros']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference) by extension 'ros'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference) by extensions ['cmake', 'python']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference) by extension 'cmake'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference) by extension 'python'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference) by extensions ['python_setup_py']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference) by extension 'python_setup_py'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static) by extensions ['ignore', 'ignore_ament_install']
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static) by extension 'ignore'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static) by extension 'ignore_ament_install'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static) by extensions ['colcon_pkg']
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static) by extension 'colcon_pkg'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static) by extensions ['colcon_meta']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static) by extension 'colcon_meta'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static) by extensions ['ros']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static) by extension 'ros'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static) by extensions ['cmake', 'python']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static) by extension 'cmake'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static) by extension 'python'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static) by extensions ['python_setup_py']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static) by extension 'python_setup_py'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css) by extensions ['ignore', 'ignore_ament_install']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css) by extension 'ignore'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css) by extension 'ignore_ament_install'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css) by extensions ['colcon_pkg']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css) by extension 'colcon_pkg'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css) by extensions ['colcon_meta']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css) by extension 'colcon_meta'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css) by extensions ['ros']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css) by extension 'ros'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css) by extensions ['cmake', 'python']
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css) by extension 'cmake'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css) by extension 'python'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css) by extensions ['python_setup_py']
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css) by extension 'python_setup_py'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css/fonts) by extensions ['ignore', 'ignore_ament_install']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css/fonts) by extension 'ignore'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css/fonts) by extension 'ignore_ament_install'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css/fonts) by extensions ['colcon_pkg']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css/fonts) by extension 'colcon_pkg'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css/fonts) by extensions ['colcon_meta']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css/fonts) by extension 'colcon_meta'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css/fonts) by extensions ['ros']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css/fonts) by extension 'ros'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css/fonts) by extensions ['cmake', 'python']
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css/fonts) by extension 'cmake'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css/fonts) by extension 'python'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css/fonts) by extensions ['python_setup_py']
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/css/fonts) by extension 'python_setup_py'
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/js) by extensions ['ignore', 'ignore_ament_install']
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/js) by extension 'ignore'
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/js) by extension 'ignore_ament_install'
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/js) by extensions ['colcon_pkg']
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/js) by extension 'colcon_pkg'
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/js) by extensions ['colcon_meta']
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/js) by extension 'colcon_meta'
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/js) by extensions ['ros']
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/js) by extension 'ros'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/js) by extensions ['cmake', 'python']
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/js) by extension 'cmake'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/js) by extension 'python'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/js) by extensions ['python_setup_py']
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbCPP_Function_Reference/_static/js) by extension 'python_setup_py'
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference) by extensions ['ignore', 'ignore_ament_install']
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference) by extension 'ignore'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference) by extension 'ignore_ament_install'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference) by extensions ['colcon_pkg']
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference) by extension 'colcon_pkg'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference) by extensions ['colcon_meta']
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference) by extension 'colcon_meta'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference) by extensions ['ros']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference) by extension 'ros'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference) by extensions ['cmake', 'python']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference) by extension 'cmake'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference) by extension 'python'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference) by extensions ['python_setup_py']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference) by extension 'python_setup_py'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static) by extensions ['ignore', 'ignore_ament_install']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static) by extension 'ignore'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static) by extension 'ignore_ament_install'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static) by extensions ['colcon_pkg']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static) by extension 'colcon_pkg'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static) by extensions ['colcon_meta']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static) by extension 'colcon_meta'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static) by extensions ['ros']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static) by extension 'ros'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static) by extensions ['cmake', 'python']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static) by extension 'cmake'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static) by extension 'python'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static) by extensions ['python_setup_py']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static) by extension 'python_setup_py'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css) by extensions ['ignore', 'ignore_ament_install']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css) by extension 'ignore'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css) by extension 'ignore_ament_install'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css) by extensions ['colcon_pkg']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css) by extension 'colcon_pkg'
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css) by extensions ['colcon_meta']
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css) by extension 'colcon_meta'
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css) by extensions ['ros']
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css) by extension 'ros'
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css) by extensions ['cmake', 'python']
+[1.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css) by extension 'cmake'
+[1.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css) by extension 'python'
+[1.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css) by extensions ['python_setup_py']
+[1.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css) by extension 'python_setup_py'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css/fonts) by extensions ['ignore', 'ignore_ament_install']
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css/fonts) by extension 'ignore'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css/fonts) by extension 'ignore_ament_install'
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css/fonts) by extensions ['colcon_pkg']
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css/fonts) by extension 'colcon_pkg'
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css/fonts) by extensions ['colcon_meta']
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css/fonts) by extension 'colcon_meta'
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css/fonts) by extensions ['ros']
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css/fonts) by extension 'ros'
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css/fonts) by extensions ['cmake', 'python']
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css/fonts) by extension 'cmake'
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css/fonts) by extension 'python'
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css/fonts) by extensions ['python_setup_py']
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/css/fonts) by extension 'python_setup_py'
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/js) by extensions ['ignore', 'ignore_ament_install']
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/js) by extension 'ignore'
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/js) by extension 'ignore_ament_install'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/js) by extensions ['colcon_pkg']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/js) by extension 'colcon_pkg'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/js) by extensions ['colcon_meta']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/js) by extension 'colcon_meta'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/js) by extensions ['ros']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/js) by extension 'ros'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/js) by extensions ['cmake', 'python']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/js) by extension 'cmake'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/js) by extension 'python'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/js) by extensions ['python_setup_py']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/VimbaX_2023-1/doc/VmbC_Function_Reference/_static/js) by extension 'python_setup_py'
+[1.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.883s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/yansa/Yansa_Vision/install
+[1.892s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[1.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.222s] Level 5:colcon.colcon_core.verb:set package 'IRCamera' build argument 'cmake_args' from command line to 'None'
+[2.222s] Level 5:colcon.colcon_core.verb:set package 'IRCamera' build argument 'cmake_target' from command line to 'None'
+[2.222s] Level 5:colcon.colcon_core.verb:set package 'IRCamera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.222s] Level 5:colcon.colcon_core.verb:set package 'IRCamera' build argument 'cmake_clean_cache' from command line to 'False'
+[2.223s] Level 5:colcon.colcon_core.verb:set package 'IRCamera' build argument 'cmake_clean_first' from command line to 'False'
+[2.223s] Level 5:colcon.colcon_core.verb:set package 'IRCamera' build argument 'cmake_force_configure' from command line to 'False'
+[2.223s] Level 5:colcon.colcon_core.verb:set package 'IRCamera' build argument 'ament_cmake_args' from command line to 'None'
+[2.223s] Level 5:colcon.colcon_core.verb:set package 'IRCamera' build argument 'catkin_cmake_args' from command line to 'None'
+[2.223s] Level 5:colcon.colcon_core.verb:set package 'IRCamera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.223s] DEBUG:colcon.colcon_core.verb:Building package 'IRCamera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yansa/Yansa_Vision/build/IRCamera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yansa/Yansa_Vision/install/IRCamera', 'merge_install': False, 'path': '/home/yansa/Yansa_Vision/src/IRCamera', 'symlink_install': True, 'test_result_base': None}
+[2.228s] Level 5:colcon.colcon_core.verb:set package 'RGBCamera' build argument 'cmake_args' from command line to 'None'
+[2.228s] Level 5:colcon.colcon_core.verb:set package 'RGBCamera' build argument 'cmake_target' from command line to 'None'
+[2.229s] Level 5:colcon.colcon_core.verb:set package 'RGBCamera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.229s] Level 5:colcon.colcon_core.verb:set package 'RGBCamera' build argument 'cmake_clean_cache' from command line to 'False'
+[2.229s] Level 5:colcon.colcon_core.verb:set package 'RGBCamera' build argument 'cmake_clean_first' from command line to 'False'
+[2.229s] Level 5:colcon.colcon_core.verb:set package 'RGBCamera' build argument 'cmake_force_configure' from command line to 'False'
+[2.229s] Level 5:colcon.colcon_core.verb:set package 'RGBCamera' build argument 'ament_cmake_args' from command line to 'None'
+[2.229s] Level 5:colcon.colcon_core.verb:set package 'RGBCamera' build argument 'catkin_cmake_args' from command line to 'None'
+[2.229s] Level 5:colcon.colcon_core.verb:set package 'RGBCamera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.229s] DEBUG:colcon.colcon_core.verb:Building package 'RGBCamera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yansa/Yansa_Vision/build/RGBCamera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yansa/Yansa_Vision/install/RGBCamera', 'merge_install': False, 'path': '/home/yansa/Yansa_Vision/src/RGBCamera', 'symlink_install': True, 'test_result_base': None}
+[2.234s] Level 5:colcon.colcon_core.verb:set package 'VmbCExamples' build argument 'cmake_args' from command line to 'None'
+[2.234s] Level 5:colcon.colcon_core.verb:set package 'VmbCExamples' build argument 'cmake_target' from command line to 'None'
+[2.235s] Level 5:colcon.colcon_core.verb:set package 'VmbCExamples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.235s] Level 5:colcon.colcon_core.verb:set package 'VmbCExamples' build argument 'cmake_clean_cache' from command line to 'False'
+[2.235s] Level 5:colcon.colcon_core.verb:set package 'VmbCExamples' build argument 'cmake_clean_first' from command line to 'False'
+[2.235s] Level 5:colcon.colcon_core.verb:set package 'VmbCExamples' build argument 'cmake_force_configure' from command line to 'False'
+[2.235s] Level 5:colcon.colcon_core.verb:set package 'VmbCExamples' build argument 'ament_cmake_args' from command line to 'None'
+[2.235s] Level 5:colcon.colcon_core.verb:set package 'VmbCExamples' build argument 'catkin_cmake_args' from command line to 'None'
+[2.235s] Level 5:colcon.colcon_core.verb:set package 'VmbCExamples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.235s] DEBUG:colcon.colcon_core.verb:Building package 'VmbCExamples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yansa/Yansa_Vision/build/VmbCExamples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yansa/Yansa_Vision/install/VmbCExamples', 'merge_install': False, 'path': '/home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/examples/VmbC', 'symlink_install': True, 'test_result_base': None}
+[2.240s] Level 5:colcon.colcon_core.verb:set package 'VmbCPP' build argument 'cmake_args' from command line to 'None'
+[2.240s] Level 5:colcon.colcon_core.verb:set package 'VmbCPP' build argument 'cmake_target' from command line to 'None'
+[2.241s] Level 5:colcon.colcon_core.verb:set package 'VmbCPP' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.241s] Level 5:colcon.colcon_core.verb:set package 'VmbCPP' build argument 'cmake_clean_cache' from command line to 'False'
+[2.241s] Level 5:colcon.colcon_core.verb:set package 'VmbCPP' build argument 'cmake_clean_first' from command line to 'False'
+[2.241s] Level 5:colcon.colcon_core.verb:set package 'VmbCPP' build argument 'cmake_force_configure' from command line to 'False'
+[2.241s] Level 5:colcon.colcon_core.verb:set package 'VmbCPP' build argument 'ament_cmake_args' from command line to 'None'
+[2.241s] Level 5:colcon.colcon_core.verb:set package 'VmbCPP' build argument 'catkin_cmake_args' from command line to 'None'
+[2.241s] Level 5:colcon.colcon_core.verb:set package 'VmbCPP' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.241s] DEBUG:colcon.colcon_core.verb:Building package 'VmbCPP' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yansa/Yansa_Vision/build/VmbCPP', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yansa/Yansa_Vision/install/VmbCPP', 'merge_install': False, 'path': '/home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/source/VmbCPP', 'symlink_install': True, 'test_result_base': None}
+[2.247s] Level 5:colcon.colcon_core.verb:set package 'VmbCPPExamples' build argument 'cmake_args' from command line to 'None'
+[2.247s] Level 5:colcon.colcon_core.verb:set package 'VmbCPPExamples' build argument 'cmake_target' from command line to 'None'
+[2.247s] Level 5:colcon.colcon_core.verb:set package 'VmbCPPExamples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.247s] Level 5:colcon.colcon_core.verb:set package 'VmbCPPExamples' build argument 'cmake_clean_cache' from command line to 'False'
+[2.247s] Level 5:colcon.colcon_core.verb:set package 'VmbCPPExamples' build argument 'cmake_clean_first' from command line to 'False'
+[2.247s] Level 5:colcon.colcon_core.verb:set package 'VmbCPPExamples' build argument 'cmake_force_configure' from command line to 'False'
+[2.247s] Level 5:colcon.colcon_core.verb:set package 'VmbCPPExamples' build argument 'ament_cmake_args' from command line to 'None'
+[2.248s] Level 5:colcon.colcon_core.verb:set package 'VmbCPPExamples' build argument 'catkin_cmake_args' from command line to 'None'
+[2.248s] Level 5:colcon.colcon_core.verb:set package 'VmbCPPExamples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.248s] DEBUG:colcon.colcon_core.verb:Building package 'VmbCPPExamples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yansa/Yansa_Vision/build/VmbCPPExamples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yansa/Yansa_Vision/install/VmbCPPExamples', 'merge_install': False, 'path': '/home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/examples/VmbCPP', 'symlink_install': True, 'test_result_base': None}
+[2.251s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.268s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.269s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yansa/Yansa_Vision/src/IRCamera' with build type 'ament_python'
+[2.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('IRCamera', 'ament_prefix_path')
+[2.290s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yansa/Yansa_Vision/install/IRCamera/share/IRCamera/hook/ament_prefix_path.ps1'
+[2.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yansa/Yansa_Vision/install/IRCamera/share/IRCamera/hook/ament_prefix_path.dsv'
+[2.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yansa/Yansa_Vision/install/IRCamera/share/IRCamera/hook/ament_prefix_path.sh'
+[2.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.331s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yansa/Yansa_Vision/src/RGBCamera' with build type 'ament_python'
+[2.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('RGBCamera', 'ament_prefix_path')
+[2.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yansa/Yansa_Vision/install/RGBCamera/share/RGBCamera/hook/ament_prefix_path.ps1'
+[2.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yansa/Yansa_Vision/install/RGBCamera/share/RGBCamera/hook/ament_prefix_path.dsv'
+[2.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yansa/Yansa_Vision/install/RGBCamera/share/RGBCamera/hook/ament_prefix_path.sh'
+[2.355s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.355s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.383s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/examples/VmbC'
+[2.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.393s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.420s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/source/VmbCPP'
+[2.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.418s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yansa/Yansa_Vision/src/IRCamera'
+[3.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.400s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yansa/Yansa_Vision/src/RGBCamera'
+[4.410s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.410s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yansa/Yansa_Vision/build/VmbCExamples': /usr/bin/cmake /home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/examples/VmbC -DCMAKE_INSTALL_PREFIX=/home/yansa/Yansa_Vision/install/VmbCExamples
+[4.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yansa/Yansa_Vision/build/VmbCPP': /usr/bin/cmake /home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/source/VmbCPP -DCMAKE_INSTALL_PREFIX=/home/yansa/Yansa_Vision/install/VmbCPP
+[6.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yansa/Yansa_Vision/build/IRCamera': PYTHONPATH=/home/yansa/Yansa_Vision/build/IRCamera/prefix_override:/home/yansa/Yansa_Vision/install/IRCamera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yansa/Yansa_Vision/build/IRCamera/build --no-deps install_data
+[6.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yansa/Yansa_Vision/build/RGBCamera': PYTHONPATH=/home/yansa/Yansa_Vision/build/RGBCamera/prefix_override:/home/yansa/Yansa_Vision/install/RGBCamera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yansa/Yansa_Vision/build/RGBCamera/build --no-deps install_data
+[8.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yansa/Yansa_Vision/build/VmbCPP' returned '0': /usr/bin/cmake /home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/source/VmbCPP -DCMAKE_INSTALL_PREFIX=/home/yansa/Yansa_Vision/install/VmbCPP
+[8.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yansa/Yansa_Vision/build/VmbCPP': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCPP -- -j4 -l4
+[8.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yansa/Yansa_Vision/build/VmbCExamples' returned '0': /usr/bin/cmake /home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/examples/VmbC -DCMAKE_INSTALL_PREFIX=/home/yansa/Yansa_Vision/install/VmbCExamples
+[8.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yansa/Yansa_Vision/build/VmbCExamples': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCExamples -- -j4 -l4
+[9.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('RGBCamera', 'pythonpath_develop')
+[9.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yansa/Yansa_Vision/build/RGBCamera' returned '0': PYTHONPATH=/home/yansa/Yansa_Vision/build/RGBCamera/prefix_override:/home/yansa/Yansa_Vision/install/RGBCamera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yansa/Yansa_Vision/build/RGBCamera/build --no-deps install_data
+[9.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yansa/Yansa_Vision/build/RGBCamera/share/RGBCamera/hook/pythonpath_develop.ps1'
+[9.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yansa/Yansa_Vision/build/RGBCamera/share/RGBCamera/hook/pythonpath_develop.dsv'
+[9.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yansa/Yansa_Vision/build/RGBCamera/share/RGBCamera/hook/pythonpath_develop.sh'
+[9.566s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/RGBCamera' for CMake module files
+[9.577s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/RGBCamera' for CMake config files
+[9.581s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/RGBCamera/lib'
+[9.582s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/RGBCamera/bin'
+[9.582s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/RGBCamera/lib/pkgconfig/RGBCamera.pc'
+[9.583s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/RGBCamera/lib/python3.8/site-packages'
+[9.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('RGBCamera', 'pythonpath')
+[9.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yansa/Yansa_Vision/install/RGBCamera/share/RGBCamera/hook/pythonpath.ps1'
+[9.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yansa/Yansa_Vision/install/RGBCamera/share/RGBCamera/hook/pythonpath.dsv'
+[9.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yansa/Yansa_Vision/install/RGBCamera/share/RGBCamera/hook/pythonpath.sh'
+[9.611s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/RGBCamera/bin'
+[9.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(RGBCamera)
+[9.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/RGBCamera/share/RGBCamera/package.ps1'
+[9.647s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yansa/Yansa_Vision/install/RGBCamera/share/RGBCamera/package.dsv'
+[9.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/RGBCamera/share/RGBCamera/package.sh'
+[9.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/RGBCamera/share/RGBCamera/package.bash'
+[9.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/RGBCamera/share/RGBCamera/package.zsh'
+[9.674s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yansa/Yansa_Vision/install/RGBCamera/share/colcon-core/packages/RGBCamera)
+[9.699s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/examples/VmbCPP'
+[9.713s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.713s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('IRCamera', 'pythonpath_develop')
+[9.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yansa/Yansa_Vision/build/IRCamera' returned '0': PYTHONPATH=/home/yansa/Yansa_Vision/build/IRCamera/prefix_override:/home/yansa/Yansa_Vision/install/IRCamera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yansa/Yansa_Vision/build/IRCamera/build --no-deps install_data
+[9.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yansa/Yansa_Vision/build/IRCamera/share/IRCamera/hook/pythonpath_develop.ps1'
+[9.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yansa/Yansa_Vision/build/IRCamera/share/IRCamera/hook/pythonpath_develop.dsv'
+[9.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yansa/Yansa_Vision/build/IRCamera/share/IRCamera/hook/pythonpath_develop.sh'
+[9.929s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/IRCamera' for CMake module files
+[9.931s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/IRCamera' for CMake config files
+[9.944s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/IRCamera/lib'
+[9.945s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/IRCamera/bin'
+[9.945s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/IRCamera/lib/pkgconfig/IRCamera.pc'
+[9.946s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/IRCamera/lib/python3.8/site-packages'
+[9.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('IRCamera', 'pythonpath')
+[9.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yansa/Yansa_Vision/install/IRCamera/share/IRCamera/hook/pythonpath.ps1'
+[9.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yansa/Yansa_Vision/install/IRCamera/share/IRCamera/hook/pythonpath.dsv'
+[9.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yansa/Yansa_Vision/install/IRCamera/share/IRCamera/hook/pythonpath.sh'
+[9.982s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/IRCamera/bin'
+[9.982s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(IRCamera)
+[10.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/IRCamera/share/IRCamera/package.ps1'
+[10.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yansa/Yansa_Vision/install/IRCamera/share/IRCamera/package.dsv'
+[10.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/IRCamera/share/IRCamera/package.sh'
+[10.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/IRCamera/share/IRCamera/package.bash'
+[10.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/IRCamera/share/IRCamera/package.zsh'
+[10.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yansa/Yansa_Vision/install/IRCamera/share/colcon-core/packages/IRCamera)
+[10.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yansa/Yansa_Vision/build/VmbCPPExamples': /usr/bin/cmake /home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/examples/VmbCPP -DCMAKE_INSTALL_PREFIX=/home/yansa/Yansa_Vision/install/VmbCPPExamples
+[15.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yansa/Yansa_Vision/build/VmbCPPExamples' returned '0': /usr/bin/cmake /home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/examples/VmbCPP -DCMAKE_INSTALL_PREFIX=/home/yansa/Yansa_Vision/install/VmbCPPExamples
+[15.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yansa/Yansa_Vision/build/VmbCPPExamples': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCPPExamples -- -j4 -l4
+[28.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yansa/Yansa_Vision/build/VmbCPPExamples' returned '0': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCPPExamples -- -j4 -l4
+[29.072s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'VmbCPPExamples' because it has no 'install' target
+[29.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(VmbCPPExamples)
+[29.086s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCPPExamples' for CMake module files
+[29.104s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCPPExamples' for CMake config files
+[29.106s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCPPExamples/bin'
+[29.106s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCPPExamples/lib/pkgconfig/VmbCPPExamples.pc'
+[29.107s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCPPExamples/lib/python3.8/site-packages'
+[29.108s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCPPExamples/bin'
+[29.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/VmbCPPExamples/share/VmbCPPExamples/package.ps1'
+[29.121s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yansa/Yansa_Vision/install/VmbCPPExamples/share/VmbCPPExamples/package.dsv'
+[29.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/VmbCPPExamples/share/VmbCPPExamples/package.sh'
+[29.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/VmbCPPExamples/share/VmbCPPExamples/package.bash'
+[29.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/VmbCPPExamples/share/VmbCPPExamples/package.zsh'
+[29.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yansa/Yansa_Vision/install/VmbCPPExamples/share/colcon-core/packages/VmbCPPExamples)
+[63.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yansa/Yansa_Vision/build/VmbCPP' returned '0': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCPP -- -j4 -l4
+[63.591s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'VmbCPP' because it has no 'install' target
+[63.591s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(VmbCPP)
+[63.605s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCPP' for CMake module files
+[63.608s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCPP' for CMake config files
+[63.610s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCPP/bin'
+[63.610s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCPP/lib/pkgconfig/VmbCPP.pc'
+[63.612s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCPP/lib/python3.8/site-packages'
+[63.613s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCPP/bin'
+[63.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/VmbCPP/share/VmbCPP/package.ps1'
+[63.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yansa/Yansa_Vision/install/VmbCPP/share/VmbCPP/package.dsv'
+[63.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/VmbCPP/share/VmbCPP/package.sh'
+[63.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/VmbCPP/share/VmbCPP/package.bash'
+[63.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/VmbCPP/share/VmbCPP/package.zsh'
+[63.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yansa/Yansa_Vision/install/VmbCPP/share/colcon-core/packages/VmbCPP)
+[66.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yansa/Yansa_Vision/build/VmbCExamples' returned '0': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCExamples -- -j4 -l4
+[66.487s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'VmbCExamples' because it has no 'install' target
+[66.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(VmbCExamples)
+[66.500s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCExamples' for CMake module files
+[66.503s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCExamples' for CMake config files
+[66.505s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCExamples/bin'
+[66.505s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCExamples/lib/pkgconfig/VmbCExamples.pc'
+[66.506s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCExamples/lib/python3.8/site-packages'
+[66.507s] Level 1:colcon.colcon_core.environment:checking '/home/yansa/Yansa_Vision/install/VmbCExamples/bin'
+[66.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/VmbCExamples/share/VmbCExamples/package.ps1'
+[66.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yansa/Yansa_Vision/install/VmbCExamples/share/VmbCExamples/package.dsv'
+[66.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/VmbCExamples/share/VmbCExamples/package.sh'
+[66.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/VmbCExamples/share/VmbCExamples/package.bash'
+[66.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/yansa/Yansa_Vision/install/VmbCExamples/share/VmbCExamples/package.zsh'
+[66.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yansa/Yansa_Vision/install/VmbCExamples/share/colcon-core/packages/VmbCExamples)
+[66.529s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[66.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[66.531s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[66.531s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[66.557s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[66.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[66.558s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[66.599s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[66.608s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yansa/Yansa_Vision/install/local_setup.ps1'
+[66.612s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yansa/Yansa_Vision/install/_local_setup_util_ps1.py'
+[66.618s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yansa/Yansa_Vision/install/setup.ps1'
+[66.625s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yansa/Yansa_Vision/install/local_setup.sh'
+[66.628s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yansa/Yansa_Vision/install/_local_setup_util_sh.py'
+[66.630s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yansa/Yansa_Vision/install/setup.sh'
+[66.637s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yansa/Yansa_Vision/install/local_setup.bash'
+[66.639s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yansa/Yansa_Vision/install/setup.bash'
+[66.646s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yansa/Yansa_Vision/install/local_setup.zsh'
+[66.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yansa/Yansa_Vision/install/setup.zsh'

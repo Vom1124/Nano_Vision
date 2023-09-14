@@ -1,0 +1,5 @@
+[2.382s] Invoking command in '/home/yansa/Yansa_Vision/build/VmbCExamples': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCExamples -- -j4 -l4
+[2.492s] CMake Error: The source directory "/home/yansa/Yansa_Vision/VimbaX_2023-1/api/examples/VmbC" does not exist.
+[2.495s] Specify --help for usage, or press the help button on the CMake GUI.
+[2.496s] make: *** [Makefile:244: cmake_check_build_system] Error 1
+[2.511s] Invoked command in '/home/yansa/Yansa_Vision/build/VmbCExamples' returned '2': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCExamples -- -j4 -l4

@@ -1,0 +1,50 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yansa/Yansa_Vision/build/VmbCPP
+[35m[1mScanning dependencies of target VmbCPP[0m
+[  3%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/Clock.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/ConditionHelper.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/BasicLockable.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/Condition.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/FileLogger.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/Mutex.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/MutexGuard.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/Semaphore.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/BaseFeature.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/BoolFeature.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/CommandFeature.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/EnumEntry.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/EnumFeature.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/Feature.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/FloatFeature.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/StringFeature.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/TransportLayer.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/Camera.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/DefaultCameraFactory.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/FeatureContainer.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/Interface.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/VmbSystem.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/LocalDevice.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/Stream.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/PersistableFeatureContainer.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/IFrameObserver.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/Frame.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/FrameHandler.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/RawFeature.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/VmbCPP.dir/IntFeature.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libVmbCPP.so[0m
+[100%] Built target VmbCPP

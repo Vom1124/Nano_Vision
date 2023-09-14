@@ -1,0 +1,10 @@
+[2.519s] Invoking command in '/home/yansa/Yansa_Vision/build/VmbCExamples': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCExamples -- -j4 -l4
+[2.832s] [ 20%] Built target VmbCExamplesCommon
+[2.957s] [ 58%] Built target AsynchronousGrabQt_VmbC
+[3.194s] [ 64%] Built target AsynchronousGrab_VmbC
+[3.219s] [ 70%] Built target ListCameras_VmbC
+[3.242s] [ 77%] Built target ListFeatures_VmbC
+[3.250s] [ 83%] Built target ChunkAccess_VmbC
+[3.433s] [ 91%] Built target ConfigIp_VmbC
+[3.461s] [100%] Built target ForceIp_VmbC
+[3.518s] Invoked command in '/home/yansa/Yansa_Vision/build/VmbCExamples' returned '0': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCExamples -- -j4 -l4

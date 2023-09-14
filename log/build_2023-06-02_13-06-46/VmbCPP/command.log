@@ -1,0 +1,2 @@
+Invoking command in '/home/yansa/Yansa_Vision/build/VmbCPP': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCPP -- -j4 -l4
+Invoked command in '/home/yansa/Yansa_Vision/build/VmbCPP' returned '0': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCPP -- -j4 -l4

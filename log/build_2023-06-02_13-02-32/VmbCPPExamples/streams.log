@@ -1,0 +1,41 @@
+[0.346s] Invoking command in '/home/yansa/Yansa_Vision/build/VmbCPPExamples': /usr/bin/cmake /home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/examples/VmbCPP -DCMAKE_INSTALL_PREFIX=/home/yansa/Yansa_Vision/install/VmbCPPExamples
+[1.163s] -- The C compiler identification is GNU 9.4.0
+[1.866s] -- The CXX compiler identification is GNU 9.4.0
+[1.942s] -- Check for working C compiler: /usr/bin/cc
+[2.828s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.833s] -- Detecting C compiler ABI info
+[3.752s] -- Detecting C compiler ABI info - done
+[3.926s] -- Detecting C compile features
+[3.932s] -- Detecting C compile features - done
+[3.972s] -- Check for working CXX compiler: /usr/bin/c++
+[4.800s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.806s] -- Detecting CXX compiler ABI info
+[5.776s] -- Detecting CXX compiler ABI info - done
+[5.934s] -- Detecting CXX compile features
+[5.938s] -- Detecting CXX compile features - done
+[6.026s] -- Configuring done
+[6.097s] -- Generating done
+[6.108s] -- Build files have been written to: /home/yansa/Yansa_Vision/build/VmbCPPExamples
+[6.136s] Invoked command in '/home/yansa/Yansa_Vision/build/VmbCPPExamples' returned '0': /usr/bin/cmake /home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/examples/VmbCPP -DCMAKE_INSTALL_PREFIX=/home/yansa/Yansa_Vision/install/VmbCPPExamples
+[6.139s] Invoking command in '/home/yansa/Yansa_Vision/build/VmbCPPExamples': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCPPExamples -- -j4 -l4
+[6.633s] [35m[1mScanning dependencies of target AsynchronousGrab_VmbCPP[0m
+[6.642s] [35m[1mScanning dependencies of target SynchronousGrab_VmbCPP[0m
+[6.665s] [35m[1mScanning dependencies of target ListCameras_VmbCPP[0m
+[6.667s] [35m[1mScanning dependencies of target ChunkAccess_VmbCPP[0m
+[6.866s] [  8%] [32mBuilding CXX object SynchronousGrab/CMakeFiles/SynchronousGrab_VmbCPP.dir/main.cpp.o[0m
+[6.870s] [ 16%] [32mBuilding CXX object AsynchronousGrab/CMakeFiles/AsynchronousGrab_VmbCPP.dir/main.cpp.o[0m
+[6.951s] [ 25%] [32mBuilding CXX object ListCameras/CMakeFiles/ListCameras_VmbCPP.dir/main.cpp.o[0m
+[6.963s] [ 33%] [32mBuilding CXX object ChunkAccess/CMakeFiles/ChunkAccess_VmbCPP.dir/main.cpp.o[0m
+[10.318s] [ 41%] [32mBuilding CXX object ListCameras/CMakeFiles/ListCameras_VmbCPP.dir/ListCameras.cpp.o[0m
+[13.357s] [ 50%] [32mBuilding CXX object SynchronousGrab/CMakeFiles/SynchronousGrab_VmbCPP.dir/SynchronousGrab.cpp.o[0m
+[13.704s] [ 58%] [32mBuilding CXX object AsynchronousGrab/CMakeFiles/AsynchronousGrab_VmbCPP.dir/AcquisitionHelper.cpp.o[0m
+[13.995s] [ 66%] [32mBuilding CXX object ChunkAccess/CMakeFiles/ChunkAccess_VmbCPP.dir/AcquisitionHelperChunk.cpp.o[0m
+[17.098s] [ 75%] [32m[1mLinking CXX executable ListCameras_VmbCPP[0m
+[17.644s] [ 75%] Built target ListCameras_VmbCPP
+[17.936s] [ 83%] [32m[1mLinking CXX executable SynchronousGrab_VmbCPP[0m
+[18.448s] [ 83%] Built target SynchronousGrab_VmbCPP
+[18.469s] [ 91%] [32m[1mLinking CXX executable AsynchronousGrab_VmbCPP[0m
+[18.898s] [ 91%] Built target AsynchronousGrab_VmbCPP
+[18.901s] [100%] [32m[1mLinking CXX executable ChunkAccess_VmbCPP[0m
+[19.233s] [100%] Built target ChunkAccess_VmbCPP
+[19.281s] Invoked command in '/home/yansa/Yansa_Vision/build/VmbCPPExamples' returned '0': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCPPExamples -- -j4 -l4
