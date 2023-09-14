@@ -28,4 +28,22 @@ Pre-Requisites:
         OpenCV is used to process and display the images for both the IR and RGB streams. It can be installed with
 
             pip3 install opencv-contrib-python
+
+  After installing the pre-requisites successfully, clone this repository either as a separate ROS2 workspace or else clone the packages and build it manually.
+
+           https://github.com/Vom1124/Nano_Vision.git && \
+            cd RasPi_LiDAR && \
+            colcon build --symlink-install
+
+  To start the streams, simply start the IR stream by running the code below in a terminal
+  
+            ros2 run IRCamera ir_grab
+  Similarly, start the RGB stream by running the following code in a new terminal
+           
+            ros2 run RGBCamera rgb_grab
+
+  Two individual streams should be open in separate windows. Both streams will be saved to an external USB drive if inserted or else will save it from the directory the nodes are run.
+
+  
+  
      
