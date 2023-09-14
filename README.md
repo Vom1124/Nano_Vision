@@ -6,7 +6,7 @@
 Pre-Requisites:
 
   1) Vmbpy:
-     Vmbpy library needs to be installed in order to use the Allied Vision camera in ROS2. To use VmbPy an installation of Vimba X and Python >= 3.7 are required.
+     Vmbpy library needs to be installed in order to use the Allied Vision camera(s) in ROS2. To use VmbPy an installation of Vimba X and Python >= 3.7 are required.
 
      a) Download VimbaX SDK: Download "VimbaX_Setup-2023-1-Linux64.tar.gz" file from their page
      
@@ -23,7 +23,8 @@ Pre-Requisites:
 
      Note: Once the VimbaX SDK and Vmbpy are installed, proceed to the next steps, as all the necessary files and folders will be saved in the required folders once this repository is cloned.
 
-     2) OpenCV:
+  
+  2) OpenCV:
         OpenCV is used to process and display the images for both the IR and RGB streams. It can be installed with
 
             pip3 install opencv-contrib-python
