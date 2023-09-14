@@ -6,7 +6,7 @@
 Pre-Requisites:
 
   1) Vmbpy:
-     Vmbpy library needs to be installed in order to use the camera in ROS2. To use VmbPy an installation of Vimba X and Python >= 3.7 are required.
+     Vmbpy library needs to be installed in order to use the Allied Vision camera in ROS2. To use VmbPy an installation of Vimba X and Python >= 3.7 are required.
 
      a) Download VimbaX SDK: Download "VimbaX_Setup-2023-1-Linux64.tar.gz" file from their page
      
