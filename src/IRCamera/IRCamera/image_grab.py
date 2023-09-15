@@ -121,17 +121,25 @@ def videoWriter(fps, w, h):
     if isMountsda==True or isMountsdb==True or isMountsdc==True:     
       #Removing/Unmounting (clearing) already existing mountpoint to avoid overlap in the mount status
       try: 
-        os.system("sudo umount /dev/sd* > /dev/null  2>&1")
+        os.system("sudo umount /dev/sd* > /dev/null  2>&1") # the output will be null.
       except:
         pass 
       print("INFO: Mount status success: a USB drive is found. The video will be saved to the inserted USB.")
       
-      if isMountsda:
-        mountCommand = "sudo mount /dev/sda1 /media/VOM"
+      '''
+      The order of checking the mount is reversed to ensure that there 
+      is no problem mounting with already preserved mountpoints by the system.
+      For example, if sda is already mounted by the system for some port address, then the access to 
+      mount the sda for USB drive won't exist. So, the further options will be checked, by in the mean time, the sda in the 
+      alphabetical order will throw an error and stop the code. Therefore, the mount check is initiated with sdc.
+      Only three /dev/sd* are used, as atmost three ports will be used simultaneously. 
+      '''
+      if isMountsdc:
+          mountCommand = "sudo mount /dev/sdc1 /media/Nano_Vision"       
       elif isMountsdb:
-        mountCommand = "sudo mount /dev/sdb1 /media/VOM"
-      elif isMountsdc:
-        mountCommand = "sudo mount /dev/sdc1 /media/VOM"
+          mountCommand = "sudo mount /dev/sdb1 /media/Nano_Vision"
+      elif isMountsda:
+          mountCommand = "sudo mount /dev/sda1 /media/Nano_Vision"
       
       os.system(mountCommand)
       videoWrite = cv2.VideoWriter("/media/VOM/IROutput.avi", cv2.VideoWriter_fourcc(*'XVID'), fps, (w,h)) 

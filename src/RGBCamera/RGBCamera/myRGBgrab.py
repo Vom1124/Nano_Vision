@@ -1,10 +1,17 @@
 """
 This code is written and modified by Vomsheendhur Raju, NDSU, Fargo, ND on 07/04/2023.
-"""
 
+BSD 2-Clause License
+Copyright (c) 2022, Allied Vision Technologies GmbH
+All rights reserved.
+"""
+'''
+The code was originally re-written using the original source code provided by the Allied Vision Technologies. 
+'''
 """
 This  node grabs the image from the Allied Vision 1800 U-508c camera and streams it in a separate window.
 Some modification to the image is done to display asyncrhonously. The streamed video will be saved wither in home directory or in a USB stick if one is inserted. 
+
 
 The inserted USB stick's UUID mountpoint name is changed to VOM within this code, which needs to be done in order to succesfully access the USB directory to save the stream.
 """
