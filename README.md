@@ -29,6 +29,7 @@
 
             pip3 install opencv-contrib-python
 
+### Starting the nodes:
   After installing the pre-requisites successfully, clone this repository either as a separate ROS2 workspace or else clone the packages and build it manually.
 
            https://github.com/Vom1124/Nano_Vision.git && \
