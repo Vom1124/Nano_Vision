@@ -105,9 +105,10 @@ def videoWriter(fps, w, h):
     # Logging in as sudo user
     os.system("sudo -k") # Exiting sudo user mode if already logged in as sudo user
     sudoPassword = "123"
-    print("Logging in as sudo user for mounting the external hard drive in order to write the video stream ...")
+    os.system("echo '\e[7m \e[91m Logging in as sudo user for mounting the external\
+              USB drive in order to write the video stream ...\e[0m'")
     os.system('echo %s | sudo -s --stdin' %(sudoPassword)) # Logging as sudo user 
-    print("\nSuccessfully logged in as sudo user!")
+    os.system("echo '\n \e[5m \e[32m*Successfully logged in as sudo user!*\e[0m'")
 
     # Checking if USB drive is mounted
     isMountsda = os.path.exists("/dev/sda1")
@@ -124,8 +125,16 @@ def videoWriter(fps, w, h):
         os.system("sudo umount /dev/sd* > /dev/null  2>&1") # the output will be null.
       except:
         pass 
-      print("INFO: Mount status success: a USB drive is found. The video will be saved to the inserted USB.")
+      os.system("echo '\e[33mINFO: Mount status success: a USB drive is found.\
+            The video stream will be saved to the inserted USB.\e[0m'")
       
+      #Checking if mount point name already exists (Need to create only on the first run).
+      isMountPointName = os.path.exists("/media/Velodyne_LiDAR")
+      if isMountPointName==True:
+          try:
+            os.system("sudo mkdir /media/Veldoyne_LiDAR") # Creating a mount point name
+          except:
+            pass
       '''
       The order of checking the mount is reversed to ensure that there 
       is no problem mounting with already preserved mountpoints by the system.
