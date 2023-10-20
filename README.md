@@ -10,11 +10,11 @@
 
      a) Download VimbaX SDK: Download "VimbaX_Setup-2023-1-Linux64.tar.gz" file from their page
      
-          https://www.alliedvision.com/en/products/software/vimba-x-sdk/
+         https://www.alliedvision.com/en/products/software/vimba-x-sdk/
 
      b) Installing VimbaX SDK: Follow the instruction from their page
 
-         chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cdn.alliedvision.com/fileadmin/content/documents/products/software/software/Vimba/appnote/Vimba_installation_under_Linux.pdf
+         chrome-      extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cdn.alliedvision.com/fileadmin/content/documents/products/software/software/Vimba/appnote/Vimba_installation_under_Linux.pdf
          
      c) Installing Vmbpy: A ready-to-install packaged `.whl` file of VmbPy can be found as part of the Vimba X installation (under VimbaX_2023-1/api/python), or be downloaded from their page
 
