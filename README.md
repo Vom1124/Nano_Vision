@@ -32,9 +32,9 @@
 ### Setting up the repository:
   After installing the pre-requisites successfully, clone this repository either as a separate ROS2 workspace or else clone the packages and build it manually.
 
-          https://github.com/Vom1124/Nano_Vision.git && \
-            cd RasPi_LiDAR && \
-            colcon build --symlink-install
+    https://github.com/Vom1124/Nano_Vision.git && \
+      cd RasPi_LiDAR && \
+      colcon build --symlink-install
 
 ### Starting the nodes:
   To start the streams, simply start the IR stream by running the code below in a terminal
