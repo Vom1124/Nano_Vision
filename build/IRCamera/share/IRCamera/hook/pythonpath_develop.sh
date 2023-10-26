@@ -1,3 +1,3 @@
 # generated from colcon_core/shell/template/hook_prepend_value.sh.em
 
-_colcon_prepend_unique_value PYTHONPATH "/home/yansa/Yansa_Vision/build/IRCamera"
+_colcon_prepend_unique_value PYTHONPATH "/home/vom/Nano_Vision/build/IRCamera"

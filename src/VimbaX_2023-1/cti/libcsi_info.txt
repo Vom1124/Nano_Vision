@@ -1,3 +1,0 @@
-libcsi version: 1.1.0.15
-0 device(s) found:
-

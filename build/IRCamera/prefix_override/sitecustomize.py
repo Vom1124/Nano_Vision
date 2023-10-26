@@ -1,3 +1,3 @@
 import sys
 sys.real_prefix = sys.prefix
-sys.prefix = sys.exec_prefix = '/home/yansa/Yansa_Vision/install/IRCamera'
+sys.prefix = sys.exec_prefix = '/home/vom/Nano_Vision/install/IRCamera'

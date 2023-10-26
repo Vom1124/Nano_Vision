@@ -1,0 +1,19 @@
+[1.053s] Invoking command in '/home/vom/Nano_Vision/build/RGBCamera': PYTHONPATH=/home/vom/Nano_Vision/build/RGBCamera/prefix_override:/home/vom/Nano_Vision/install/RGBCamera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/Nano_Vision/build/RGBCamera/build --no-deps install_data
+[1.254s] /home/vom/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.254s]   warnings.warn(
+[1.293s] running develop
+[1.445s] running egg_info
+[1.445s] writing RGBCamera.egg-info/PKG-INFO
+[1.446s] writing dependency_links to RGBCamera.egg-info/dependency_links.txt
+[1.446s] writing entry points to RGBCamera.egg-info/entry_points.txt
+[1.446s] writing requirements to RGBCamera.egg-info/requires.txt
+[1.446s] writing top-level names to RGBCamera.egg-info/top_level.txt
+[1.447s] reading manifest file 'RGBCamera.egg-info/SOURCES.txt'
+[1.448s] writing manifest file 'RGBCamera.egg-info/SOURCES.txt'
+[1.485s] running build_ext
+[1.485s] Creating /home/vom/Nano_Vision/install/RGBCamera/lib/python3.10/site-packages/RGBCamera.egg-link (link to .)
+[1.486s] Installing rgb_grab script to /home/vom/Nano_Vision/install/RGBCamera/lib/RGBCamera
+[1.487s] 
+[1.487s] Installed /home/vom/Nano_Vision/build/RGBCamera
+[1.487s] running install_data
+[1.514s] Invoked command in '/home/vom/Nano_Vision/build/RGBCamera' returned '0': PYTHONPATH=/home/vom/Nano_Vision/build/RGBCamera/prefix_override:/home/vom/Nano_Vision/install/RGBCamera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/Nano_Vision/build/RGBCamera/build --no-deps install_data

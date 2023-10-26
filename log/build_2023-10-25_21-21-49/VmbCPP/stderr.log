@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/vom/Nano_Vision/build/VmbCPP/CMakeCache.txt is different than the directory /home/yansa/Yansa_Vision/build/VmbCPP where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/source/VmbCPP" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+make: *** [Makefile:1046: cmake_check_build_system] Error 1

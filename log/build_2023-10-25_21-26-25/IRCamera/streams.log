@@ -1,0 +1,21 @@
+[1.174s] Invoking command in '/home/vom/Nano_Vision/build/IRCamera': PYTHONPATH=/home/vom/Nano_Vision/build/IRCamera/prefix_override:/home/vom/Nano_Vision/install/IRCamera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/Nano_Vision/build/IRCamera/build --no-deps install_data
+[1.369s] /home/vom/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.369s]   warnings.warn(
+[1.408s] running develop
+[1.560s] running egg_info
+[1.561s] writing IRCamera.egg-info/PKG-INFO
+[1.561s] writing dependency_links to IRCamera.egg-info/dependency_links.txt
+[1.561s] writing entry points to IRCamera.egg-info/entry_points.txt
+[1.561s] writing requirements to IRCamera.egg-info/requires.txt
+[1.561s] writing top-level names to IRCamera.egg-info/top_level.txt
+[1.563s] reading manifest file 'IRCamera.egg-info/SOURCES.txt'
+[1.565s] writing manifest file 'IRCamera.egg-info/SOURCES.txt'
+[1.605s] running build_ext
+[1.606s] Creating /home/vom/Nano_Vision/install/IRCamera/lib/python3.10/site-packages/IRCamera.egg-link (link to .)
+[1.607s] Installing ir_grab script to /home/vom/Nano_Vision/install/IRCamera/lib/IRCamera
+[1.607s] Installing ir_pub script to /home/vom/Nano_Vision/install/IRCamera/lib/IRCamera
+[1.607s] Installing ir_sub script to /home/vom/Nano_Vision/install/IRCamera/lib/IRCamera
+[1.607s] 
+[1.607s] Installed /home/vom/Nano_Vision/build/IRCamera
+[1.607s] running install_data
+[1.640s] Invoked command in '/home/vom/Nano_Vision/build/IRCamera' returned '0': PYTHONPATH=/home/vom/Nano_Vision/build/IRCamera/prefix_override:/home/vom/Nano_Vision/install/IRCamera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/Nano_Vision/build/IRCamera/build --no-deps install_data

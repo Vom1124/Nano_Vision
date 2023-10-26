@@ -1,1 +1,0 @@
-/usr/bin/cc   -Wl,-rpath,'$ORIGIN' -rdynamic CMakeFiles/ListCameras_VmbC.dir/main.c.o CMakeFiles/ListCameras_VmbC.dir/ListCamerasProg.c.o  -o ListCameras_VmbC  -Wl,-rpath,/home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/lib /home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/lib/libVmbC.so ../AsynchronousGrab/VmbCExamplesCommon_build/libVmbCExamplesCommon.a 
