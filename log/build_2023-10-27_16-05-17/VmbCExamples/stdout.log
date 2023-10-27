@@ -1,0 +1,71 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vom/Nano_Vision/build/VmbCExamples
+[  2%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/VmbThreads_Linux.c.o[0m
+[  4%] [34m[1mGenerating ui_AsynchronousGrabGui.h[0m
+[  6%] [34m[1mGenerating UI/moc_MainWindow.cpp[0m
+[  8%] [34m[1mGenerating UI/moc_ImageLabel.cpp[0m
+[ 10%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/ErrorCodeToMessage.c.o[0m
+[ 12%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/AccessModeToString.c.o[0m
+[ 14%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/IpAddressToHostByteOrderedInt.c.o[0m
+[ 16%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/ListCameras.c.o[0m
+[ 18%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/ListInterfaces.c.o[0m
+[ 20%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/ListTransportLayers.c.o[0m
+[ 22%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/TransportLayerTypeToString.c.o[0m
+[ 25%] [32mBuilding C object AsynchronousGrab/VmbCExamplesCommon_build/CMakeFiles/VmbCExamplesCommon.dir/PrintVmbVersion.c.o[0m
+[ 27%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/AcquisitionManager.cpp.o[0m
+[ 31%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/ApiController.cpp.o[0m
+[ 31%] [32m[1mLinking C static library libVmbCExamplesCommon.a[0m
+[ 33%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/Image.cpp.o[0m
+[ 35%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/ImageTranscoder.cpp.o[0m
+[ 37%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/LogEntryListModel.cpp.o[0m
+[ 41%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/ModuleData.cpp.o[0m
+[ 41%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/ModuleTreeModel.cpp.o[0m
+[ 41%] Built target VmbCExamplesCommon
+[ 43%] [32mBuilding C object AsynchronousGrab/CMakeFiles/AsynchronousGrab_VmbC.dir/main.c.o[0m
+[ 45%] [32mBuilding C object AsynchronousGrab/CMakeFiles/AsynchronousGrab_VmbC.dir/AsynchronousGrab.c.o[0m
+[ 47%] [32m[1mLinking C executable AsynchronousGrab_VmbC[0m
+[ 47%] Built target AsynchronousGrab_VmbC
+[ 50%] [32mBuilding C object ListFeatures/CMakeFiles/ListFeatures_VmbC.dir/main.c.o[0m
+[ 52%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/VmbException.cpp.o[0m
+[ 54%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/VmbLibraryLifetime.cpp.o[0m
+[ 56%] [32mBuilding C object ListFeatures/CMakeFiles/ListFeatures_VmbC.dir/ListFeatures.c.o[0m
+[ 58%] [32m[1mLinking C executable ListFeatures_VmbC[0m
+[ 58%] Built target ListFeatures_VmbC
+[ 60%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/main.cpp.o[0m
+[ 62%] [32mBuilding C object ListCameras/CMakeFiles/ListCameras_VmbC.dir/main.c.o[0m
+[ 64%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/UI/moc_MainWindow.cpp.o[0m
+[ 66%] [32mBuilding C object ListCameras/CMakeFiles/ListCameras_VmbC.dir/ListCamerasProg.c.o[0m
+[ 68%] [32m[1mLinking C executable ListCameras_VmbC[0m
+[ 68%] Built target ListCameras_VmbC
+[ 70%] [32mBuilding C object ChunkAccess/CMakeFiles/ChunkAccess_VmbC.dir/main.c.o[0m
+[ 72%] [32mBuilding C object ChunkAccess/CMakeFiles/ChunkAccess_VmbC.dir/ChunkAccessProg.c.o[0m
+[ 75%] [32m[1mLinking C executable ChunkAccess_VmbC[0m
+[ 75%] Built target ChunkAccess_VmbC
+[ 77%] [32mBuilding C object ConfigIp/CMakeFiles/ConfigIp_VmbC.dir/main.c.o[0m
+[ 79%] [32mBuilding C object ConfigIp/CMakeFiles/ConfigIp_VmbC.dir/ConfigIp.c.o[0m
+[ 81%] [32mBuilding C object ConfigIp/CMakeFiles/ConfigIp_VmbC.dir/ConfigIpProg.c.o[0m
+[ 83%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/UI/moc_ImageLabel.cpp.o[0m
+[ 85%] [32m[1mLinking C executable ConfigIp_VmbC[0m
+[ 87%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/UI/MainWindow.cpp.o[0m
+[ 87%] Built target ConfigIp_VmbC
+[ 89%] [32mBuilding CXX object AsynchronousGrabQt/CMakeFiles/AsynchronousGrabQt_VmbC.dir/UI/ImageLabel.cpp.o[0m
+[ 91%] [32mBuilding C object ForceIp/CMakeFiles/ForceIp_VmbC.dir/main.c.o[0m
+[ 93%] [32mBuilding C object ForceIp/CMakeFiles/ForceIp_VmbC.dir/ForceIp.c.o[0m
+[ 95%] [32mBuilding C object ForceIp/CMakeFiles/ForceIp_VmbC.dir/ForceIpProg.c.o[0m
+[ 97%] [32m[1mLinking C executable ForceIp_VmbC[0m
+[ 97%] Built target ForceIp_VmbC
+[100%] [32m[1mLinking CXX executable AsynchronousGrabQt_VmbC[0m
+[100%] Built target AsynchronousGrabQt_VmbC

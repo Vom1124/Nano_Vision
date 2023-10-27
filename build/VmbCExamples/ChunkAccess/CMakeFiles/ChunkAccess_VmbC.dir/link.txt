@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,-rpath,'$ORIGIN' -rdynamic CMakeFiles/ChunkAccess_VmbC.dir/main.c.o CMakeFiles/ChunkAccess_VmbC.dir/ChunkAccessProg.c.o -o ChunkAccess_VmbC  -Wl,-rpath,/home/vom/Nano_Vision/src/VimbaX_2023-1/api/lib /home/vom/Nano_Vision/src/VimbaX_2023-1/api/lib/libVmbC.so ../AsynchronousGrab/VmbCExamplesCommon_build/libVmbCExamplesCommon.a 

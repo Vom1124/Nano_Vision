@@ -4,6 +4,3 @@ source;share/rgb_camera/hook/pythonpath.sh
 source;share/rgb_camera/hook/ament_prefix_path.ps1
 source;share/rgb_camera/hook/ament_prefix_path.dsv
 source;share/rgb_camera/hook/ament_prefix_path.sh
-source;../../build/rgb_camera/share/rgb_camera/hook/pythonpath_develop.ps1
-source;../../build/rgb_camera/share/rgb_camera/hook/pythonpath_develop.dsv
-source;../../build/rgb_camera/share/rgb_camera/hook/pythonpath_develop.sh

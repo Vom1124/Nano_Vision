@@ -10,14 +10,15 @@ def generate_launch_description():
         #name='/* node_name */',
         output='screen'
     )
-
+    ld.add_action(ir_node)
+    
     rgb_node = Node(
         package='rgb_camera',
         executable='rgb_grab',  
         output='screen'
     )
     
-    ld.add_action(ir_node)
+    
     ld.add_action(rgb_node)
     
     return ld

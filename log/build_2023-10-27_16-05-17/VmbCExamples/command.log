@@ -1,0 +1,4 @@
+Invoking command in '/home/vom/Nano_Vision/build/VmbCExamples': /usr/bin/cmake /home/vom/Nano_Vision/src/VimbaX_2023-1/api/examples/VmbC -DCMAKE_INSTALL_PREFIX=/home/vom/Nano_Vision/install/VmbCExamples
+Invoked command in '/home/vom/Nano_Vision/build/VmbCExamples' returned '0': /usr/bin/cmake /home/vom/Nano_Vision/src/VimbaX_2023-1/api/examples/VmbC -DCMAKE_INSTALL_PREFIX=/home/vom/Nano_Vision/install/VmbCExamples
+Invoking command in '/home/vom/Nano_Vision/build/VmbCExamples': /usr/bin/cmake --build /home/vom/Nano_Vision/build/VmbCExamples -- -j8 -l8
+Invoked command in '/home/vom/Nano_Vision/build/VmbCExamples' returned '0': /usr/bin/cmake --build /home/vom/Nano_Vision/build/VmbCExamples -- -j8 -l8
