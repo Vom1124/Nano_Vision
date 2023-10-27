@@ -21,7 +21,16 @@ from rclpy.node import Node # Handles the creation of nodes
 from sensor_msgs.msg import Image # Image is the message type
 import cv2 # OpenCV library
 from cv_bridge import CvBridge # Package to convert between ROS and OpenCV Images
-  
+
+# Logging in as sudo user
+os.system("sudo -k") # First exiting the sudo mode if already in sudo mode
+sudoPassword = "123"
+os.system("echo '\e[7m \e[91m Logging in as sudo user...\e[0m'")
+os.system("echo %s | sudo -i --stdin" %(sudoPassword))
+os.system("echo '\n \e[5m \e[32m*Successfully logged in as sudo user!*\e[0m'")
+current_username = os.getlogin()
+
+
 global fps 
 
 class ImageGrabber(Node):
@@ -102,39 +111,37 @@ class ImageGrabber(Node):
 
 def videoWriter(fps, w, h):
 
-    # Logging in as sudo user
-    os.system("sudo -k") # Exiting sudo user mode if already logged in as sudo user
-    sudoPassword = "123"
-    os.system("echo '\e[7m \e[91m Logging in as sudo user for mounting the external\
-              USB drive in order to write the video stream ...\e[0m'")
-    os.system('echo %s | sudo -s --stdin' %(sudoPassword)) # Logging as sudo user 
-    os.system("echo '\n \e[5m \e[32m*Successfully logged in as sudo user!*\e[0m'")
+  # Checking if USB drive is mounted
+  isMountsda = os.path.exists("/dev/sda1")
+  isMountsdb = os.path.exists("/dev/sdb1")
+  isMountsdc = os.path.exists("/dev/sdc1")
+  isMountsdd = os.path.exists("/dev/sdd1")
 
-    # Checking if USB drive is mounted
-    isMountsda = os.path.exists("/dev/sda1")
-    isMountsdb = os.path.exists("/dev/sdb1")
-    isMountsdc = os.path.exists("/dev/sdc1")	
-    print("sda status "+ str(isMountsda) + "\nsdbstatus"+ str(isMountsdb) + "\nsdc status" + str(isMountsdc))
+  print("sda status" + str(isMountsda) + "\nsdb status" + \
+      str(isMountsdb) + "\nsdc status" + str(isMountsdc) + \
+            "\nsdd status" + str(isMountsdd))
 
-    
-    print("Mount status: ")
-    # Now creating a mountpoint name for the USB manually
-    if isMountsda==True or isMountsdb==True or isMountsdc==True:     
+  # Now creating a mountpoint name for the USB manually
+  if isMountsda==True or isMountsdb==True or isMountsdc==True:     
       #Removing/Unmounting (clearing) already existing mountpoint to avoid overlap in the mount status
-      try: 
-        os.system("sudo umount /dev/sd* > /dev/null  2>&1") # the output will be null.
-      except:
-        pass 
+      os.system("sudo umount /dev/sd* > /dev/null  2>&1") # the output will be null
       os.system("echo '\e[33mINFO: Mount status success: a USB drive is found.\
-            The video stream will be saved to the inserted USB.\e[0m'")
+      The video stream will be saved to the inserted USB.\e[0m'")
       
       #Checking if mount point name already exists (Need to create only on the first run).
-      isMountPointName = os.path.exists("/media/Velodyne_LiDAR")
+      isMountPointName = os.path.exists("/media/Nano_Vision/IR")
+
+      os.system("sudo chown %s:%s /media/"%(current_username,current_username))
+      os.system("sudo chown %s:%s /dev/sd*"%(current_username,current_username))
+      
       if isMountPointName==True:
           try:
-            os.system("sudo mkdir /media/Veldoyne_LiDAR") # Creating a mount point name
+              os.system("sudo rm -r /media/Nano_Vision/*")
+              os.system("mkdir /media/Nano_Vision/IR") # Creating a mount point name
           except:
-            pass
+              pass
+      elif isMountPointName==False:      
+          os.system("mkdir /media/Nano_Vision/IR") # Creating a mount point name
       '''
       The order of checking the mount is reversed to ensure that there 
       is no problem mounting with already preserved mountpoints by the system.
@@ -143,21 +150,23 @@ def videoWriter(fps, w, h):
       alphabetical order will throw an error and stop the code. Therefore, the mount check is initiated with sdc.
       Only three /dev/sd* are used, as atmost three ports will be used simultaneously. 
       '''
-      if isMountsdc:
-          mountCommand = "sudo mount /dev/sdc1 /media/Nano_Vision"       
+      if isMountsdd:
+          mountCommand = "sudo mount /dev/sdd1 /media/Nano_Vision/IR -o umask=022,rw,uid=1000,gid=1000"
+      elif isMountsdc:
+          mountCommand = "sudo mount /dev/sdc1 /media/Nano_Vision/IR -o umask=022,rw,uid=1000,gid=1000"   
       elif isMountsdb:
-          mountCommand = "sudo mount /dev/sdb1 /media/Nano_Vision"
+          mountCommand = "sudo mount /dev/sdb1 /media/Nano_Vision/IR -o umask=022,rw,uid=1000,gid=1000"
       elif isMountsda:
-          mountCommand = "sudo mount /dev/sda1 /media/Nano_Vision"
+          mountCommand = "sudo mount /dev/sda1 /media/Nano_Vision/IR -o umask=022,rw,uid=1000,gid=1000"
       
-      os.system(mountCommand)
-      videoWrite = cv2.VideoWriter("/media/VOM/IROutput.avi", cv2.VideoWriter_fourcc(*'XVID'), fps, (w,h)) 
+      os.system(mountCommand)     
+      videoWrite = cv2.VideoWriter("/media/Nano_Vision/IR?IROutput.avi", cv2.VideoWriter_fourcc(*'XVID'), fps, (w,h)) 
     
-    else:
-      print("WARNING: Mount status failure: no USB inserted to write the video. The stream will be saved to local drive instead.")
-      videoWrite = cv2.VideoWriter("IROutput.avi", cv2.VideoWriter_fourcc(*'XVID'), fps, (w,h))
+  else:
+    print("WARNING: Mount status failure: no USB inserted to write the video. The stream will be saved to local drive instead.")
+    videoWrite = cv2.VideoWriter("IROutput.avi", cv2.VideoWriter_fourcc(*'XVID'), fps, (w,h))
       
-    return videoWrite
+  return videoWrite
   
 def main(args=None):
   

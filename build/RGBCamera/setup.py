@@ -1,1 +1,0 @@
-/home/vom/Nano_Vision/src/RGBCamera/setup.py

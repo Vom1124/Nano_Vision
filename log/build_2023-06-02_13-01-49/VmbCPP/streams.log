@@ -1,5 +1,0 @@
-[2.356s] Invoking command in '/home/yansa/Yansa_Vision/build/VmbCPP': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCPP -- -j4 -l4
-[2.448s] CMake Error: The source directory "/home/yansa/Yansa_Vision/VimbaX_2023-1/api/source/VmbCPP" does not exist.
-[2.453s] Specify --help for usage, or press the help button on the CMake GUI.
-[2.454s] make: *** [Makefile:1046: cmake_check_build_system] Error 1
-[2.465s] Invoked command in '/home/yansa/Yansa_Vision/build/VmbCPP' returned '2': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCPP -- -j4 -l4

@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating rgb_camera.egg-info
+writing rgb_camera.egg-info/PKG-INFO
+writing dependency_links to rgb_camera.egg-info/dependency_links.txt
+writing entry points to rgb_camera.egg-info/entry_points.txt
+writing requirements to rgb_camera.egg-info/requires.txt
+writing top-level names to rgb_camera.egg-info/top_level.txt
+writing manifest file 'rgb_camera.egg-info/SOURCES.txt'
+reading manifest file 'rgb_camera.egg-info/SOURCES.txt'
+writing manifest file 'rgb_camera.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb-camera.egg-link (link to .)
+Installing asynchronous_opencv_grab script to /home/vom/Nano_Vision/install/rgb_camera/lib/rgb_camera
+Installing rgb_grab script to /home/vom/Nano_Vision/install/rgb_camera/lib/rgb_camera
+
+Installed /home/vom/Nano_Vision/build/rgb_camera
+running install_data
+creating /home/vom/Nano_Vision/install/rgb_camera/share/ament_index
+creating /home/vom/Nano_Vision/install/rgb_camera/share/ament_index/resource_index
+creating /home/vom/Nano_Vision/install/rgb_camera/share/ament_index/resource_index/packages
+copying resource/rgb_camera -> /home/vom/Nano_Vision/install/rgb_camera/share/ament_index/resource_index/packages
+copying package.xml -> /home/vom/Nano_Vision/install/rgb_camera/share/rgb_camera

@@ -1,0 +1,9 @@
+/home/vom/Nano_Vision/build/yansa_vision_bringup/CMakeFiles/uninstall.dir
+/home/vom/Nano_Vision/build/yansa_vision_bringup/CMakeFiles/yansa_vision_bringup_uninstall.dir
+/home/vom/Nano_Vision/build/yansa_vision_bringup/CMakeFiles/test.dir
+/home/vom/Nano_Vision/build/yansa_vision_bringup/CMakeFiles/edit_cache.dir
+/home/vom/Nano_Vision/build/yansa_vision_bringup/CMakeFiles/rebuild_cache.dir
+/home/vom/Nano_Vision/build/yansa_vision_bringup/CMakeFiles/list_install_components.dir
+/home/vom/Nano_Vision/build/yansa_vision_bringup/CMakeFiles/install.dir
+/home/vom/Nano_Vision/build/yansa_vision_bringup/CMakeFiles/install/local.dir
+/home/vom/Nano_Vision/build/yansa_vision_bringup/CMakeFiles/install/strip.dir

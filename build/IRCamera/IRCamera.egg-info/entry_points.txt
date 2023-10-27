@@ -1,5 +1,0 @@
-[console_scripts]
-ir_grab = IRCamera.image_grab:main
-ir_pub = IRCamera.image_pub:main
-ir_sub = IRCamera.image_sub:main
-

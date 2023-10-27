@@ -1,0 +1,25 @@
+[1.094s] Invoking command in '/home/vom/Nano_Vision/build/rgb_camera': PYTHONPATH=/home/vom/Nano_Vision/build/rgb_camera/prefix_override:/home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/Nano_Vision/build/rgb_camera/build --no-deps install_data
+[1.344s] running develop
+[1.511s] running egg_info
+[1.511s] creating rgb_camera.egg-info
+[1.512s] writing rgb_camera.egg-info/PKG-INFO
+[1.512s] writing dependency_links to rgb_camera.egg-info/dependency_links.txt
+[1.512s] writing entry points to rgb_camera.egg-info/entry_points.txt
+[1.512s] writing requirements to rgb_camera.egg-info/requires.txt
+[1.512s] writing top-level names to rgb_camera.egg-info/top_level.txt
+[1.512s] writing manifest file 'rgb_camera.egg-info/SOURCES.txt'
+[1.514s] reading manifest file 'rgb_camera.egg-info/SOURCES.txt'
+[1.515s] writing manifest file 'rgb_camera.egg-info/SOURCES.txt'
+[1.554s] running build_ext
+[1.554s] Creating /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb-camera.egg-link (link to .)
+[1.554s] Installing asynchronous_opencv_grab script to /home/vom/Nano_Vision/install/rgb_camera/lib/rgb_camera
+[1.555s] Installing rgb_grab script to /home/vom/Nano_Vision/install/rgb_camera/lib/rgb_camera
+[1.555s] 
+[1.555s] Installed /home/vom/Nano_Vision/build/rgb_camera
+[1.555s] running install_data
+[1.555s] creating /home/vom/Nano_Vision/install/rgb_camera/share/ament_index
+[1.555s] creating /home/vom/Nano_Vision/install/rgb_camera/share/ament_index/resource_index
+[1.555s] creating /home/vom/Nano_Vision/install/rgb_camera/share/ament_index/resource_index/packages
+[1.555s] copying resource/rgb_camera -> /home/vom/Nano_Vision/install/rgb_camera/share/ament_index/resource_index/packages
+[1.555s] copying package.xml -> /home/vom/Nano_Vision/install/rgb_camera/share/rgb_camera
+[1.662s] Invoked command in '/home/vom/Nano_Vision/build/rgb_camera' returned '0': PYTHONPATH=/home/vom/Nano_Vision/build/rgb_camera/prefix_override:/home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/Nano_Vision/build/rgb_camera/build --no-deps install_data

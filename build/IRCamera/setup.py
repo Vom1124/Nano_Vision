@@ -1,1 +1,0 @@
-/home/vom/Nano_Vision/src/IRCamera/setup.py

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+ir_camera/__init__.py
+ir_camera/image_grab.py
+ir_camera/image_pub.py
+ir_camera/image_sub.py
+ir_camera.egg-info/PKG-INFO
+ir_camera.egg-info/SOURCES.txt
+ir_camera.egg-info/dependency_links.txt
+ir_camera.egg-info/entry_points.txt
+ir_camera.egg-info/requires.txt
+ir_camera.egg-info/top_level.txt
+ir_camera.egg-info/zip-safe
+resource/ir_camera

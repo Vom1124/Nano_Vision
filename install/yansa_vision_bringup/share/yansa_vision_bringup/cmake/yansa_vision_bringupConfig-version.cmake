@@ -1,0 +1,1 @@
+/home/vom/Nano_Vision/build/yansa_vision_bringup/ament_cmake_core/yansa_vision_bringupConfig-version.cmake

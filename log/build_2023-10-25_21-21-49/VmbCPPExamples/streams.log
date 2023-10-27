@@ -1,5 +1,0 @@
-[0.684s] Invoking command in '/home/vom/Nano_Vision/build/VmbCPPExamples': /usr/bin/cmake --build /home/vom/Nano_Vision/build/VmbCPPExamples -- -j8 -l8
-[0.690s] [0mCMake Error: The current CMakeCache.txt directory /home/vom/Nano_Vision/build/VmbCPPExamples/CMakeCache.txt is different than the directory /home/yansa/Yansa_Vision/build/VmbCPPExamples where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.698s] [0mCMake Error: The source directory "/home/yansa/Yansa_Vision/src/VimbaX_2023-1/api/examples/VmbCPP" does not exist.
-[0.698s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.699s] make: *** [Makefile:188: cmake_check_build_system] Error 1

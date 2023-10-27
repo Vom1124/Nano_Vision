@@ -1,2 +1,0 @@
-Invoking command in '/home/yansa/Yansa_Vision/build/VmbCExamples': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCExamples -- -j4 -l4
-Invoked command in '/home/yansa/Yansa_Vision/build/VmbCExamples' returned '2': /usr/bin/cmake --build /home/yansa/Yansa_Vision/build/VmbCExamples -- -j4 -l4
