@@ -16,9 +16,8 @@ Some modification to the image is done to display asyncrhonously. The streamed v
 The inserted USB stick's UUID mountpoint name is changed to VOM within this code, which needs to be done in order to succesfully access the USB directory to save the stream.
 """
 
-
-
 import os
+import getpass
 import logging
 import queue
 from functools import partial 
@@ -37,7 +36,7 @@ sudoPassword = "123"
 os.system("echo '\e[7m \e[91m Logging in as sudo user...\e[0m'")
 os.system("echo %s | sudo -i --stdin" %(sudoPassword))
 os.system("echo '\n \e[5m \e[32m*Successfully logged in as sudo user!*\e[0m'")
-current_username = os.getlogin()
+current_username = getpass.getuser()
 
 
 # True resolution of the 1800 U-508c
