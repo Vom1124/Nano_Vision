@@ -283,7 +283,7 @@ def videoWriter(fps):
         
     else:
         print("WARNING: Mount status failure: no USB inserted to write the video. The stream will be saved to local drive instead.")
-        videoWrite = cv2.VideoWriter("/home/vom/RGBOutput.avi", cv2.VideoWriter_fourcc(*'XVID'), fps, (w_d,h_d))
+        videoWrite = cv2.VideoWriter("RGBOutput.avi", cv2.VideoWriter_fourcc(*'XVID'), fps, (w_d,h_d))
 
     
       
