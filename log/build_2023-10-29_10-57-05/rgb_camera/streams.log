@@ -1,0 +1,55 @@
+[1.293s] Invoking command in '/home/vom/Nano_Vision/build/rgb_camera': PYTHONPATH=/home/vom/Nano_Vision/build/rgb_camera/prefix_override:/home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/vom/Nano_Vision/build/rgb_camera/build
+[1.559s] running develop
+[1.728s] Removing /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb-camera.egg-link (link to .)
+[1.761s] Invoked command in '/home/vom/Nano_Vision/build/rgb_camera' returned '0': PYTHONPATH=/home/vom/Nano_Vision/build/rgb_camera/prefix_override:/home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/vom/Nano_Vision/build/rgb_camera/build
+[1.762s] Invoking command in '/home/vom/Nano_Vision/src/rgb_camera': PYTHONPATH=/home/vom/Nano_Vision/build/rgb_camera/prefix_override:/home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rgb_camera build --build-base /home/vom/Nano_Vision/build/rgb_camera/build install --record /home/vom/Nano_Vision/build/rgb_camera/install.log --single-version-externally-managed
+[1.995s] running egg_info
+[1.996s] writing ../../build/rgb_camera/rgb_camera.egg-info/PKG-INFO
+[1.996s] writing dependency_links to ../../build/rgb_camera/rgb_camera.egg-info/dependency_links.txt
+[1.997s] writing entry points to ../../build/rgb_camera/rgb_camera.egg-info/entry_points.txt
+[1.997s] writing requirements to ../../build/rgb_camera/rgb_camera.egg-info/requires.txt
+[1.997s] writing top-level names to ../../build/rgb_camera/rgb_camera.egg-info/top_level.txt
+[1.998s] reading manifest file '../../build/rgb_camera/rgb_camera.egg-info/SOURCES.txt'
+[1.999s] writing manifest file '../../build/rgb_camera/rgb_camera.egg-info/SOURCES.txt'
+[1.999s] running build
+[2.000s] running build_py
+[2.000s] copying rgb_camera/image_grab.py -> /home/vom/Nano_Vision/build/rgb_camera/build/lib/rgb_camera
+[2.001s] running install
+[2.005s] running install_lib
+[2.005s] creating /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera
+[2.008s] copying /home/vom/Nano_Vision/build/rgb_camera/build/lib/rgb_camera/image_pub.py -> /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera
+[2.008s] copying /home/vom/Nano_Vision/build/rgb_camera/build/lib/rgb_camera/multithreading_opencv.py -> /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera
+[2.010s] copying /home/vom/Nano_Vision/build/rgb_camera/build/lib/rgb_camera/list_features.py -> /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera
+[2.010s] copying /home/vom/Nano_Vision/build/rgb_camera/build/lib/rgb_camera/synchronous_grab.py -> /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera
+[2.010s] copying /home/vom/Nano_Vision/build/rgb_camera/build/lib/rgb_camera/action_commands.py -> /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera
+[2.010s] copying /home/vom/Nano_Vision/build/rgb_camera/build/lib/rgb_camera/__init__.py -> /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera
+[2.010s] copying /home/vom/Nano_Vision/build/rgb_camera/build/lib/rgb_camera/load_save_settings.py -> /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera
+[2.010s] copying /home/vom/Nano_Vision/build/rgb_camera/build/lib/rgb_camera/user_set.py -> /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera
+[2.010s] copying /home/vom/Nano_Vision/build/rgb_camera/build/lib/rgb_camera/create_trace_log.py -> /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera
+[2.010s] copying /home/vom/Nano_Vision/build/rgb_camera/build/lib/rgb_camera/image_sub.py -> /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera
+[2.010s] copying /home/vom/Nano_Vision/build/rgb_camera/build/lib/rgb_camera/image_grab.py -> /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera
+[2.011s] copying /home/vom/Nano_Vision/build/rgb_camera/build/lib/rgb_camera/asynchronous_grab_opencv.py -> /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera
+[2.011s] copying /home/vom/Nano_Vision/build/rgb_camera/build/lib/rgb_camera/list_cameras.py -> /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera
+[2.011s] copying /home/vom/Nano_Vision/build/rgb_camera/build/lib/rgb_camera/asynchronous_grab.py -> /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera
+[2.011s] byte-compiling /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera/image_pub.py to image_pub.cpython-310.pyc
+[2.011s] byte-compiling /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera/multithreading_opencv.py to multithreading_opencv.cpython-310.pyc
+[2.015s] byte-compiling /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera/list_features.py to list_features.cpython-310.pyc
+[2.015s] byte-compiling /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera/synchronous_grab.py to synchronous_grab.cpython-310.pyc
+[2.016s] byte-compiling /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera/action_commands.py to action_commands.cpython-310.pyc
+[2.016s] byte-compiling /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera/__init__.py to __init__.cpython-310.pyc
+[2.016s] byte-compiling /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera/load_save_settings.py to load_save_settings.cpython-310.pyc
+[2.016s] byte-compiling /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera/user_set.py to user_set.cpython-310.pyc
+[2.016s] byte-compiling /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera/create_trace_log.py to create_trace_log.cpython-310.pyc
+[2.016s] byte-compiling /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera/image_sub.py to image_sub.cpython-310.pyc
+[2.016s] byte-compiling /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera/image_grab.py to image_grab.cpython-310.pyc
+[2.016s] byte-compiling /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera/asynchronous_grab_opencv.py to asynchronous_grab_opencv.cpython-310.pyc
+[2.016s] byte-compiling /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera/list_cameras.py to list_cameras.cpython-310.pyc
+[2.016s] byte-compiling /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera/asynchronous_grab.py to asynchronous_grab.cpython-310.pyc
+[2.016s] running install_data
+[2.016s] running install_egg_info
+[2.016s] Copying ../../build/rgb_camera/rgb_camera.egg-info to /home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages/rgb_camera-0.0.0-py3.10.egg-info
+[2.019s] running install_scripts
+[2.033s] Installing asynchronous_opencv_grab script to /home/vom/Nano_Vision/install/rgb_camera/lib/rgb_camera
+[2.034s] Installing rgb_grab script to /home/vom/Nano_Vision/install/rgb_camera/lib/rgb_camera
+[2.034s] writing list of installed files to '/home/vom/Nano_Vision/build/rgb_camera/install.log'
+[2.057s] Invoked command in '/home/vom/Nano_Vision/src/rgb_camera' returned '0': PYTHONPATH=/home/vom/Nano_Vision/build/rgb_camera/prefix_override:/home/vom/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rgb_camera build --build-base /home/vom/Nano_Vision/build/rgb_camera/build install --record /home/vom/Nano_Vision/build/rgb_camera/install.log --single-version-externally-managed

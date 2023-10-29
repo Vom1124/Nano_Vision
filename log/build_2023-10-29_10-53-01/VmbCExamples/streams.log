@@ -1,0 +1,10 @@
+[1.274s] Invoking command in '/home/vom/Nano_Vision/build/VmbCExamples': /usr/bin/cmake --build /home/vom/Nano_Vision/build/VmbCExamples -- -j8 -l8
+[1.359s] [ 20%] Built target VmbCExamplesCommon
+[1.376s] [ 58%] Built target AsynchronousGrabQt_VmbC
+[1.392s] [ 64%] Built target AsynchronousGrab_VmbC
+[1.397s] [ 70%] Built target ListCameras_VmbC
+[1.399s] [ 77%] Built target ListFeatures_VmbC
+[1.417s] [ 85%] Built target ConfigIp_VmbC
+[1.418s] [ 93%] Built target ForceIp_VmbC
+[1.420s] [100%] Built target ChunkAccess_VmbC
+[1.495s] Invoked command in '/home/vom/Nano_Vision/build/VmbCExamples' returned '0': /usr/bin/cmake --build /home/vom/Nano_Vision/build/VmbCExamples -- -j8 -l8

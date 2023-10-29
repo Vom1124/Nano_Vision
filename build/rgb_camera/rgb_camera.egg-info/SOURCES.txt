@@ -23,6 +23,10 @@ rgb_camera/load_save_settings.py
 rgb_camera/multithreading_opencv.py
 rgb_camera/synchronous_grab.py
 rgb_camera/user_set.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+rgb_camera.egg-info/PKG-INFO
+rgb_camera.egg-info/SOURCES.txt
+rgb_camera.egg-info/dependency_links.txt
+rgb_camera.egg-info/entry_points.txt
+rgb_camera.egg-info/requires.txt
+rgb_camera.egg-info/top_level.txt
+rgb_camera.egg-info/zip-safe

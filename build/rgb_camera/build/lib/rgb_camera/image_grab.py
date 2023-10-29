@@ -16,9 +16,8 @@ Some modification to the image is done to display asyncrhonously. The streamed v
 The inserted USB stick's UUID mountpoint name is changed to VOM within this code, which needs to be done in order to succesfully access the USB directory to save the stream.
 """
 
-
-
 import os
+import getpass
 import logging
 import queue
 from functools import partial 
@@ -37,7 +36,7 @@ sudoPassword = "123"
 os.system("echo '\e[7m \e[91m Logging in as sudo user...\e[0m'")
 os.system("echo %s | sudo -i --stdin" %(sudoPassword))
 os.system("echo '\n \e[5m \e[32m*Successfully logged in as sudo user!*\e[0m'")
-current_username = os.getlogin()
+current_username = getpass.getuser()
 
 
 # True resolution of the 1800 U-508c
@@ -118,6 +117,7 @@ def setupCamera(cam: Camera):
 
         except (AttributeError, VmbFeatureError):
             pass
+            
         # Change the pixel format
         try:
             cam.set_pixel_format(PixelFormat.Bgr8)
@@ -126,13 +126,13 @@ def setupCamera(cam: Camera):
 
         # Enable auto exposure time setting if camera supports it
         cam.ExposureAuto.set(False)
-        cam.ExposureTime.set(50000)
+        cam.ExposureTime.set(10000)
         # except (AttributeError, VmbFeatureError):
             # pass
 
         # Enable white balancing if camera supports it
         try:
-            cam.BalanceWhiteAuto.set('True')
+            cam.BalanceWhiteAuto.set(True)
         except (AttributeError, VmbFeatureError):
             pass
 
@@ -151,22 +151,23 @@ def setupCamera(cam: Camera):
             
             
         # Set the Gain
+        cam.GainAuto.set(F)
         try:
-            cam.GainAuto.set('False')
-            cam.Gain.set('3')
+            cam.GainAuto.set(False)
+            cam.Gain.set(3)
         except (AttributeError, VmbFeatureError):
             pass
             
         # Set the Gamma
         try:
-            cam.Gamma.set(1)
+            cam.Gamma.set(2.4) #within [0.4000000059604645, 2.4000000953674316].
         except (AttributeError, VmbFeatureError):
             pass
       
         #Set the FPS
         try:
-            cam.AcquisitionFrameRateEnable.set('False')
-            cam.AcquisitionFrameRate.set(187)
+            cam.AcquisitionFrameRateEnable.set(False)
+            cam.AcquisitionFrameRate.set(12.809)#within [1.0369063602411188e-05, 12.809259414672852]
         except (AttributeError, VmbFeatureError):
             pass
 
@@ -270,13 +271,13 @@ def videoWriter(fps):
         Only three /dev/sd* are used, as atmost three ports will be used simultaneously. 
         '''
         if isMountsdd:
-            mountCommand = "sudo mount /dev/sdd1 /media/Nano_Vision/RGB -o umask=022,rw,uid=1000,gid=1000"
+            mountCommand = "sudo mount /dev/sdd1 /media/Nano_Vision/RGB -o umask=022,rwx,uid=1000,gid=1000"
         elif isMountsdc:
-            mountCommand = "sudo mount /dev/sdc1 /media/Nano_Vision/RGB -o umask=022,rw,uid=1000,gid=1000"   
+            mountCommand = "sudo mount /dev/sdc1 /media/Nano_Vision/RGB -o umask=022,rwx,uid=1000,gid=1000"   
         elif isMountsdb:
-            mountCommand = "sudo mount /dev/sdb1 /media/Nano_Vision/RGB -o umask=022,rw,uid=1000,gid=1000"
+            mountCommand = "sudo mount /dev/sdb1 /media/Nano_Vision/RGB -o umask=022,rwx,uid=1000,gid=1000"
         elif isMountsda:
-            mountCommand = "sudo mount /dev/sda1 /media/Nano_Vision/RGB -o umask=022,rw,uid=1000,gid=1000"
+            mountCommand = "sudo mount /dev/sda1 /media/Nano_Vision/RGB -o umask=022,rwx,uid=1000,gid=1000"
         
         os.system(mountCommand)    
         videoWrite = cv2.VideoWriter("/media/Nano_Vision/RGB/RGBOutput.avi", cv2.VideoWriter_fourcc(*'XVID'), fps, (w_d,h_d)) 

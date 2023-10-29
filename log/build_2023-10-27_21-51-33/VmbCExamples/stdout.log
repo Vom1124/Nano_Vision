@@ -1,0 +1,8 @@
+[ 20%] Built target VmbCExamplesCommon
+[ 58%] Built target AsynchronousGrabQt_VmbC
+[ 64%] Built target AsynchronousGrab_VmbC
+[ 70%] Built target ChunkAccess_VmbC
+[ 77%] Built target ListFeatures_VmbC
+[ 85%] Built target ConfigIp_VmbC
+[ 91%] Built target ListCameras_VmbC
+[100%] Built target ForceIp_VmbC

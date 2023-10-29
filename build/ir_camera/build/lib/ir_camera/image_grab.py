@@ -12,7 +12,7 @@ The inserted USB stick's UUID mountpoint name is changed to VOM within this code
 
 # Import the necessary libraries
 import os
-
+import getpass
 import sys # Importing sys utils
 import time # For computing the time
 
@@ -28,7 +28,7 @@ sudoPassword = "123"
 os.system("echo '\e[7m \e[91m Logging in as sudo user...\e[0m'")
 os.system("echo %s | sudo -i --stdin" %(sudoPassword))
 os.system("echo '\n \e[5m \e[32m*Successfully logged in as sudo user!*\e[0m'")
-current_username = os.getlogin()
+current_username = getpass.getuser()
 
 
 global fps 

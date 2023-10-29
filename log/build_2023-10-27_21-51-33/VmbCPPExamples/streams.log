@@ -1,0 +1,6 @@
+[0.733s] Invoking command in '/home/vom/Nano_Vision/build/VmbCPPExamples': /usr/bin/cmake --build /home/vom/Nano_Vision/build/VmbCPPExamples -- -j8 -l8
+[0.786s] [ 50%] Built target SynchronousGrab_VmbCPP
+[0.787s] [ 50%] Built target AsynchronousGrab_VmbCPP
+[0.789s] [ 75%] Built target ChunkAccess_VmbCPP
+[0.790s] [100%] Built target ListCameras_VmbCPP
+[0.803s] Invoked command in '/home/vom/Nano_Vision/build/VmbCPPExamples' returned '0': /usr/bin/cmake --build /home/vom/Nano_Vision/build/VmbCPPExamples -- -j8 -l8

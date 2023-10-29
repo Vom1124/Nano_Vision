@@ -1,0 +1,36 @@
+[1.446s] Invoking command in '/home/vom/Nano_Vision/build/ir_camera': PYTHONPATH=/home/vom/Nano_Vision/build/ir_camera/prefix_override:/home/vom/Nano_Vision/install/ir_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/vom/Nano_Vision/build/ir_camera/build
+[1.711s] running develop
+[1.882s] Removing /home/vom/Nano_Vision/install/ir_camera/lib/python3.10/site-packages/ir-camera.egg-link (link to .)
+[1.907s] Invoked command in '/home/vom/Nano_Vision/build/ir_camera' returned '0': PYTHONPATH=/home/vom/Nano_Vision/build/ir_camera/prefix_override:/home/vom/Nano_Vision/install/ir_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/vom/Nano_Vision/build/ir_camera/build
+[1.908s] Invoking command in '/home/vom/Nano_Vision/src/ir_camera': PYTHONPATH=/home/vom/Nano_Vision/build/ir_camera/prefix_override:/home/vom/Nano_Vision/install/ir_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ir_camera build --build-base /home/vom/Nano_Vision/build/ir_camera/build install --record /home/vom/Nano_Vision/build/ir_camera/install.log --single-version-externally-managed
+[2.145s] running egg_info
+[2.146s] writing ../../build/ir_camera/ir_camera.egg-info/PKG-INFO
+[2.146s] writing dependency_links to ../../build/ir_camera/ir_camera.egg-info/dependency_links.txt
+[2.146s] writing entry points to ../../build/ir_camera/ir_camera.egg-info/entry_points.txt
+[2.147s] writing requirements to ../../build/ir_camera/ir_camera.egg-info/requires.txt
+[2.147s] writing top-level names to ../../build/ir_camera/ir_camera.egg-info/top_level.txt
+[2.148s] reading manifest file '../../build/ir_camera/ir_camera.egg-info/SOURCES.txt'
+[2.149s] writing manifest file '../../build/ir_camera/ir_camera.egg-info/SOURCES.txt'
+[2.149s] running build
+[2.149s] running build_py
+[2.150s] copying ir_camera/image_grab.py -> /home/vom/Nano_Vision/build/ir_camera/build/lib/ir_camera
+[2.150s] running install
+[2.150s] running install_lib
+[2.150s] creating /home/vom/Nano_Vision/install/ir_camera/lib/python3.10/site-packages/ir_camera
+[2.150s] copying /home/vom/Nano_Vision/build/ir_camera/build/lib/ir_camera/image_pub.py -> /home/vom/Nano_Vision/install/ir_camera/lib/python3.10/site-packages/ir_camera
+[2.151s] copying /home/vom/Nano_Vision/build/ir_camera/build/lib/ir_camera/__init__.py -> /home/vom/Nano_Vision/install/ir_camera/lib/python3.10/site-packages/ir_camera
+[2.151s] copying /home/vom/Nano_Vision/build/ir_camera/build/lib/ir_camera/image_sub.py -> /home/vom/Nano_Vision/install/ir_camera/lib/python3.10/site-packages/ir_camera
+[2.152s] copying /home/vom/Nano_Vision/build/ir_camera/build/lib/ir_camera/image_grab.py -> /home/vom/Nano_Vision/install/ir_camera/lib/python3.10/site-packages/ir_camera
+[2.152s] byte-compiling /home/vom/Nano_Vision/install/ir_camera/lib/python3.10/site-packages/ir_camera/image_pub.py to image_pub.cpython-310.pyc
+[2.152s] byte-compiling /home/vom/Nano_Vision/install/ir_camera/lib/python3.10/site-packages/ir_camera/__init__.py to __init__.cpython-310.pyc
+[2.152s] byte-compiling /home/vom/Nano_Vision/install/ir_camera/lib/python3.10/site-packages/ir_camera/image_sub.py to image_sub.cpython-310.pyc
+[2.152s] byte-compiling /home/vom/Nano_Vision/install/ir_camera/lib/python3.10/site-packages/ir_camera/image_grab.py to image_grab.cpython-310.pyc
+[2.153s] running install_data
+[2.153s] running install_egg_info
+[2.156s] Copying ../../build/ir_camera/ir_camera.egg-info to /home/vom/Nano_Vision/install/ir_camera/lib/python3.10/site-packages/ir_camera-0.0.0-py3.10.egg-info
+[2.156s] running install_scripts
+[2.178s] Installing ir_grab script to /home/vom/Nano_Vision/install/ir_camera/lib/ir_camera
+[2.178s] Installing ir_pub script to /home/vom/Nano_Vision/install/ir_camera/lib/ir_camera
+[2.179s] Installing ir_sub script to /home/vom/Nano_Vision/install/ir_camera/lib/ir_camera
+[2.179s] writing list of installed files to '/home/vom/Nano_Vision/build/ir_camera/install.log'
+[2.245s] Invoked command in '/home/vom/Nano_Vision/src/ir_camera' returned '0': PYTHONPATH=/home/vom/Nano_Vision/build/ir_camera/prefix_override:/home/vom/Nano_Vision/install/ir_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ir_camera build --build-base /home/vom/Nano_Vision/build/ir_camera/build install --record /home/vom/Nano_Vision/build/ir_camera/install.log --single-version-externally-managed
