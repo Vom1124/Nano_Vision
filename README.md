@@ -33,7 +33,7 @@
   After installing the pre-requisites successfully, clone this repository either as a separate ROS2 workspace or else clone the packages and build it manually.
 
     git clone https://github.com/Vom1124/Nano_Vision.git && \
-      cd RasPi_LiDAR && \
+      cd Nano_Vision && \
       colcon build --symlink-install
 
 ### Starting the nodes:
