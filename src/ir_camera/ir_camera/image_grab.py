@@ -26,7 +26,7 @@ from cv_bridge import CvBridge # Package to convert between ROS and OpenCV Image
 os.system("sudo -k") # First exiting the sudo mode if already in sudo mode
 sudoPassword = "123"
 os.system("echo '\e[7m \e[91m Logging in as sudo user...\e[0m'")
-os.system("echo %s | sudo -i --stdin" %(sudoPassword))
+os.system("echo %s | sudo -s --stdin" %(sudoPassword))
 os.system("echo '\n \e[5m \e[32m*Successfully logged in as sudo user!*\e[0m'")
 current_username = getpass.getuser()
 
@@ -160,12 +160,13 @@ def videoWriter(fps, w, h):
           mountCommand = "sudo mount /dev/sda1 /media/Nano_Vision/IR -o umask=022,rw,uid=1000,gid=1000"
       
       os.system(mountCommand)     
-      videoWrite = cv2.VideoWriter("/media/Nano_Vision/IR?IROutput.avi", cv2.VideoWriter_fourcc(*'XVID'), fps, (w,h)) 
+      videoWrite = cv2.VideoWriter("/media/Nano_Vision/IROutput.avi", cv2.VideoWriter_fourcc(*'XVID'), fps, (w,h)) 
     
   else:
     print("WARNING: Mount status failure: no USB inserted to write the video. The stream will be saved to local drive instead.")
-    videoWrite = cv2.VideoWriter("IROutput.avi", cv2.VideoWriter_fourcc(*'XVID'), fps, (w,h))
-      
+    videoWrite = cv2.VideoWriter("/home/%s/IROutput.avi"%(current_username), cv2.VideoWriter_fourcc(*'XVID'), fps, (w_d,h_d))
+    os.system("sudo chmod -R a+rwx /home/%s/IROutput.avi"%(current_username))
+
   return videoWrite
   
 def main(args=None):

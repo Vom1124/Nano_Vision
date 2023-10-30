@@ -34,7 +34,7 @@ import cv2
 os.system("sudo -k") # First exiting the sudo mode if already in sudo mode
 sudoPassword = "123"
 os.system("echo '\e[7m \e[91m Logging in as sudo user...\e[0m'")
-os.system("echo %s | sudo -i --stdin" %(sudoPassword))
+os.system("echo %s | sudo -s --stdin" %(sudoPassword))
 os.system("echo '\n \e[5m \e[32m*Successfully logged in as sudo user!*\e[0m'")
 current_username = getpass.getuser()
 
@@ -283,7 +283,8 @@ def videoWriter(fps):
         
     else:
         print("WARNING: Mount status failure: no USB inserted to write the video. The stream will be saved to local drive instead.")
-        videoWrite = cv2.VideoWriter("RGBOutput.avi", cv2.VideoWriter_fourcc(*'XVID'), fps, (w_d,h_d))
+        videoWrite = cv2.VideoWriter("/home/%s/RGBOutput.avi"%(current_username), cv2.VideoWriter_fourcc(*'XVID'), fps, (w_d,h_d))
+        os.system("sudo chmod -R a+rwx /home/%s/RGBOutput.avi"%(current_username))
 
     
       
