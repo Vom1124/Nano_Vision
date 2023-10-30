@@ -164,7 +164,7 @@ def videoWriter(fps, w, h):
     
   else:
     print("WARNING: Mount status failure: no USB inserted to write the video. The stream will be saved to local drive instead.")
-    videoWrite = cv2.VideoWriter("/home/%s/IROutput.avi"%(current_username), cv2.VideoWriter_fourcc(*'XVID'), fps, (w_d,h_d))
+    videoWrite = cv2.VideoWriter("/home/%s/IROutput.avi"%(current_username), cv2.VideoWriter_fourcc(*'XVID'), fps, (w,h))
     os.system("sudo chmod -R a+rwx /home/%s/IROutput.avi"%(current_username))
     os.system("sudo chown %s:%s /home/%s/IROutput.avi"%(current_username,current_username,current_username))
 
