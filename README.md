@@ -24,10 +24,12 @@
      Note: Once the VimbaX SDK and Vmbpy are installed, proceed to the next steps, as all the necessary files and folders will be saved in the required folders once this repository is cloned.
 
   
-  3) OpenCV:
+  2) OpenCV:
         OpenCV is used to process and display the images for both the IR and RGB streams. It can be installed with
 
          pip3 install opencv-contrib-python
+  3) USB Utils:
+        The launch file uses NTFS formatted USB stick in order to write the streams into the USB drive. But if for some reason the USB is formatted as FAT or exFAT filesystem, then the "utils" for exfat needs to be installed in the Jetson Nano, as by default it doesn't have exfat utils installed.
 
 ### Setting up the repository:
   After installing the pre-requisites successfully, clone this repository either as a separate ROS2 workspace or else clone the packages and build it manually.
