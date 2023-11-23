@@ -1,3 +1,0 @@
-/home/vom/Nano_Vision/build/VmbCPP/CMakeFiles/VmbCPP.dir
-/home/vom/Nano_Vision/build/VmbCPP/CMakeFiles/edit_cache.dir
-/home/vom/Nano_Vision/build/VmbCPP/CMakeFiles/rebuild_cache.dir

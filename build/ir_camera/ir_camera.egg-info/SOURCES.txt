@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/ir_camera/ir_camera.egg-info/PKG-INFO
-../../build/ir_camera/ir_camera.egg-info/SOURCES.txt
-../../build/ir_camera/ir_camera.egg-info/dependency_links.txt
-../../build/ir_camera/ir_camera.egg-info/entry_points.txt
-../../build/ir_camera/ir_camera.egg-info/requires.txt
-../../build/ir_camera/ir_camera.egg-info/top_level.txt
-../../build/ir_camera/ir_camera.egg-info/zip-safe
 ir_camera/__init__.py
 ir_camera/image_grab.py
 ir_camera/image_pub.py

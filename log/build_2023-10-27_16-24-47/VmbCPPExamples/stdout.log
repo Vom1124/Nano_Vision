@@ -1,8 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target SynchronousGrab_VmbCPP[0m
-[35m[1mConsolidate compiler generated dependencies of target ChunkAccess_VmbCPP[0m
-[35m[1mConsolidate compiler generated dependencies of target AsynchronousGrab_VmbCPP[0m
-[35m[1mConsolidate compiler generated dependencies of target ListCameras_VmbCPP[0m
-[ 25%] Built target SynchronousGrab_VmbCPP
-[ 50%] Built target AsynchronousGrab_VmbCPP
-[ 75%] Built target ChunkAccess_VmbCPP
-[100%] Built target ListCameras_VmbCPP

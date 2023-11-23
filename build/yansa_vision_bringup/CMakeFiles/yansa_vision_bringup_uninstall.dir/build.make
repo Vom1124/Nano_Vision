@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vom/Nano_Vision/src/yansa_vision_bringup
+CMAKE_SOURCE_DIR = /home/vom/ros2_ws/Nano_Vision/src/yansa_vision_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vom/Nano_Vision/build/yansa_vision_bringup
+CMAKE_BINARY_DIR = /home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup
 
 # Utility rule file for yansa_vision_bringup_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/yansa_vision_bringup_uninstall.dir/compiler_depend.make
 include CMakeFiles/yansa_vision_bringup_uninstall.dir/progress.make
 
 CMakeFiles/yansa_vision_bringup_uninstall:
-	/usr/bin/cmake -P /home/vom/Nano_Vision/build/yansa_vision_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 yansa_vision_bringup_uninstall: CMakeFiles/yansa_vision_bringup_uninstall
 yansa_vision_bringup_uninstall: CMakeFiles/yansa_vision_bringup_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/yansa_vision_bringup_uninstall.dir/clean:
 .PHONY : CMakeFiles/yansa_vision_bringup_uninstall.dir/clean
 
 CMakeFiles/yansa_vision_bringup_uninstall.dir/depend:
-	cd /home/vom/Nano_Vision/build/yansa_vision_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vom/Nano_Vision/src/yansa_vision_bringup /home/vom/Nano_Vision/src/yansa_vision_bringup /home/vom/Nano_Vision/build/yansa_vision_bringup /home/vom/Nano_Vision/build/yansa_vision_bringup /home/vom/Nano_Vision/build/yansa_vision_bringup/CMakeFiles/yansa_vision_bringup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vom/ros2_ws/Nano_Vision/src/yansa_vision_bringup /home/vom/ros2_ws/Nano_Vision/src/yansa_vision_bringup /home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup /home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup /home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup/CMakeFiles/yansa_vision_bringup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/yansa_vision_bringup_uninstall.dir/depend
 

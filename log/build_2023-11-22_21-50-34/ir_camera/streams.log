@@ -1,0 +1,26 @@
+[2.092s] Invoking command in '/home/vom/ros2_ws/Nano_Vision/build/ir_camera': PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/ir_camera/prefix_override:/home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/ros2_ws/Nano_Vision/build/ir_camera/build --no-deps install_data
+[2.545s] running develop
+[2.829s] running egg_info
+[2.830s] creating ir_camera.egg-info
+[2.830s] writing ir_camera.egg-info/PKG-INFO
+[2.831s] writing dependency_links to ir_camera.egg-info/dependency_links.txt
+[2.831s] writing entry points to ir_camera.egg-info/entry_points.txt
+[2.831s] writing requirements to ir_camera.egg-info/requires.txt
+[2.831s] writing top-level names to ir_camera.egg-info/top_level.txt
+[2.831s] writing manifest file 'ir_camera.egg-info/SOURCES.txt'
+[2.833s] reading manifest file 'ir_camera.egg-info/SOURCES.txt'
+[2.833s] writing manifest file 'ir_camera.egg-info/SOURCES.txt'
+[2.836s] running build_ext
+[2.836s] Creating /home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/python3.10/site-packages/ir-camera.egg-link (link to .)
+[2.837s] Installing ir_grab script to /home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/ir_camera
+[2.838s] Installing ir_pub script to /home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/ir_camera
+[2.838s] Installing ir_sub script to /home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/ir_camera
+[2.838s] 
+[2.839s] Installed /home/vom/ros2_ws/Nano_Vision/build/ir_camera
+[2.839s] running install_data
+[2.839s] creating /home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ament_index
+[2.839s] creating /home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ament_index/resource_index
+[2.839s] creating /home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ament_index/resource_index/packages
+[2.839s] copying resource/ir_camera -> /home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ament_index/resource_index/packages
+[2.839s] copying package.xml -> /home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ir_camera
+[3.074s] Invoked command in '/home/vom/ros2_ws/Nano_Vision/build/ir_camera' returned '0': PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/ir_camera/prefix_override:/home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/ros2_ws/Nano_Vision/build/ir_camera/build --no-deps install_data

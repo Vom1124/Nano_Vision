@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,-rpath,'$ORIGIN' -rdynamic CMakeFiles/ListCameras_VmbCPP.dir/main.cpp.o CMakeFiles/ListCameras_VmbCPP.dir/ListCameras.cpp.o -o ListCameras_VmbCPP  -Wl,-rpath,/home/vom/Nano_Vision/src/VimbaX_2023-1/api/lib /home/vom/Nano_Vision/src/VimbaX_2023-1/api/lib/libVmbCPP.so /home/vom/Nano_Vision/src/VimbaX_2023-1/api/lib/libVmbC.so 

@@ -4,8 +4,8 @@
   <name>rgb_camera</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="vomsheendhur@gmail.com">vom</maintainer>
-  <license>Apache License 2.0</license>
+  <maintainer email="yansa@todo.todo">yansa</maintainer>
+  <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
   <depend>image_transport</depend>

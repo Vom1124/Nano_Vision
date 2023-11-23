@@ -1,0 +1,24 @@
+[1.782s] Invoking command in '/home/vom/ros2_ws/Nano_Vision/build/usb_mount': PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/usb_mount/prefix_override:/home/vom/ros2_ws/Nano_Vision/install/usb_mount/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/ros2_ws/Nano_Vision/build/usb_mount/build --no-deps install_data
+[2.241s] running develop
+[2.514s] running egg_info
+[2.514s] creating usb_mount.egg-info
+[2.514s] writing usb_mount.egg-info/PKG-INFO
+[2.514s] writing dependency_links to usb_mount.egg-info/dependency_links.txt
+[2.515s] writing entry points to usb_mount.egg-info/entry_points.txt
+[2.515s] writing requirements to usb_mount.egg-info/requires.txt
+[2.515s] writing top-level names to usb_mount.egg-info/top_level.txt
+[2.515s] writing manifest file 'usb_mount.egg-info/SOURCES.txt'
+[2.517s] reading manifest file 'usb_mount.egg-info/SOURCES.txt'
+[2.518s] writing manifest file 'usb_mount.egg-info/SOURCES.txt'
+[2.521s] running build_ext
+[2.521s] Creating /home/vom/ros2_ws/Nano_Vision/install/usb_mount/lib/python3.10/site-packages/usb-mount.egg-link (link to .)
+[2.522s] Installing mount script to /home/vom/ros2_ws/Nano_Vision/install/usb_mount/lib/usb_mount
+[2.523s] 
+[2.523s] Installed /home/vom/ros2_ws/Nano_Vision/build/usb_mount
+[2.523s] running install_data
+[2.523s] creating /home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/ament_index
+[2.523s] creating /home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/ament_index/resource_index
+[2.523s] creating /home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/ament_index/resource_index/packages
+[2.524s] copying resource/usb_mount -> /home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/ament_index/resource_index/packages
+[2.524s] copying package.xml -> /home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/usb_mount
+[2.677s] Invoked command in '/home/vom/ros2_ws/Nano_Vision/build/usb_mount' returned '0': PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/usb_mount/prefix_override:/home/vom/ros2_ws/Nano_Vision/install/usb_mount/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/ros2_ws/Nano_Vision/build/usb_mount/build --no-deps install_data

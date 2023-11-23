@@ -1,0 +1,305 @@
+[1.088s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.088s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f17a9337250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f17a93378b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f17a93378b0>>)
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.140s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vom/ros2_ws/Nano_Vision'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_camera) by extension 'ignore'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_camera) by extension 'ignore_ament_install'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_camera) by extensions ['colcon_pkg']
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_camera) by extension 'colcon_pkg'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_camera) by extensions ['colcon_meta']
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_camera) by extension 'colcon_meta'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_camera) by extensions ['ros']
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_camera) by extension 'ros'
+[1.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ir_camera' with type 'ros.ament_python' and name 'ir_camera'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgb_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgb_camera) by extension 'ignore'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgb_camera) by extension 'ignore_ament_install'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgb_camera) by extensions ['colcon_pkg']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgb_camera) by extension 'colcon_pkg'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgb_camera) by extensions ['colcon_meta']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgb_camera) by extension 'colcon_meta'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgb_camera) by extensions ['ros']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgb_camera) by extension 'ros'
+[1.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rgb_camera' with type 'ros.ament_python' and name 'rgb_camera'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_mount) by extensions ['ignore', 'ignore_ament_install']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_mount) by extension 'ignore'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_mount) by extension 'ignore_ament_install'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_mount) by extensions ['colcon_pkg']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_mount) by extension 'colcon_pkg'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_mount) by extensions ['colcon_meta']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_mount) by extension 'colcon_meta'
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_mount) by extensions ['ros']
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_mount) by extension 'ros'
+[1.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usb_mount' with type 'ros.ament_python' and name 'usb_mount'
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/yansa_vision_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/yansa_vision_bringup) by extension 'ignore'
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/yansa_vision_bringup) by extension 'ignore_ament_install'
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/yansa_vision_bringup) by extensions ['colcon_pkg']
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/yansa_vision_bringup) by extension 'colcon_pkg'
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/yansa_vision_bringup) by extensions ['colcon_meta']
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/yansa_vision_bringup) by extension 'colcon_meta'
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/yansa_vision_bringup) by extensions ['ros']
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/yansa_vision_bringup) by extension 'ros'
+[1.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yansa_vision_bringup' with type 'ros.ament_cmake' and name 'yansa_vision_bringup'
+[1.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.306s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/vom/ros2_ws/RasPi_LiDAR/install
+[1.323s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/vom/ros2_ws/RasPi_GPS_IMU/install
+[1.338s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vom/ros2_ws/HusarionRosbot2R/install
+[1.354s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/humble
+[1.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.459s] Level 5:colcon.colcon_core.verb:set package 'ir_camera' build argument 'cmake_args' from command line to 'None'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'ir_camera' build argument 'cmake_target' from command line to 'None'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'ir_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'ir_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'ir_camera' build argument 'cmake_clean_first' from command line to 'False'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'ir_camera' build argument 'cmake_force_configure' from command line to 'False'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'ir_camera' build argument 'ament_cmake_args' from command line to 'None'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'ir_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'ir_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.460s] DEBUG:colcon.colcon_core.verb:Building package 'ir_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vom/ros2_ws/Nano_Vision/build/ir_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vom/ros2_ws/Nano_Vision/install/ir_camera', 'merge_install': False, 'path': '/home/vom/ros2_ws/Nano_Vision/src/ir_camera', 'symlink_install': True, 'test_result_base': None}
+[1.474s] Level 5:colcon.colcon_core.verb:set package 'rgb_camera' build argument 'cmake_args' from command line to 'None'
+[1.474s] Level 5:colcon.colcon_core.verb:set package 'rgb_camera' build argument 'cmake_target' from command line to 'None'
+[1.474s] Level 5:colcon.colcon_core.verb:set package 'rgb_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.475s] Level 5:colcon.colcon_core.verb:set package 'rgb_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[1.475s] Level 5:colcon.colcon_core.verb:set package 'rgb_camera' build argument 'cmake_clean_first' from command line to 'False'
+[1.475s] Level 5:colcon.colcon_core.verb:set package 'rgb_camera' build argument 'cmake_force_configure' from command line to 'False'
+[1.475s] Level 5:colcon.colcon_core.verb:set package 'rgb_camera' build argument 'ament_cmake_args' from command line to 'None'
+[1.475s] Level 5:colcon.colcon_core.verb:set package 'rgb_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[1.475s] Level 5:colcon.colcon_core.verb:set package 'rgb_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.475s] DEBUG:colcon.colcon_core.verb:Building package 'rgb_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vom/ros2_ws/Nano_Vision/build/rgb_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera', 'merge_install': False, 'path': '/home/vom/ros2_ws/Nano_Vision/src/rgb_camera', 'symlink_install': True, 'test_result_base': None}
+[1.490s] Level 5:colcon.colcon_core.verb:set package 'usb_mount' build argument 'cmake_args' from command line to 'None'
+[1.490s] Level 5:colcon.colcon_core.verb:set package 'usb_mount' build argument 'cmake_target' from command line to 'None'
+[1.490s] Level 5:colcon.colcon_core.verb:set package 'usb_mount' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.490s] Level 5:colcon.colcon_core.verb:set package 'usb_mount' build argument 'cmake_clean_cache' from command line to 'False'
+[1.490s] Level 5:colcon.colcon_core.verb:set package 'usb_mount' build argument 'cmake_clean_first' from command line to 'False'
+[1.490s] Level 5:colcon.colcon_core.verb:set package 'usb_mount' build argument 'cmake_force_configure' from command line to 'False'
+[1.490s] Level 5:colcon.colcon_core.verb:set package 'usb_mount' build argument 'ament_cmake_args' from command line to 'None'
+[1.490s] Level 5:colcon.colcon_core.verb:set package 'usb_mount' build argument 'catkin_cmake_args' from command line to 'None'
+[1.490s] Level 5:colcon.colcon_core.verb:set package 'usb_mount' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.491s] DEBUG:colcon.colcon_core.verb:Building package 'usb_mount' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vom/ros2_ws/Nano_Vision/build/usb_mount', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vom/ros2_ws/Nano_Vision/install/usb_mount', 'merge_install': False, 'path': '/home/vom/ros2_ws/Nano_Vision/src/usb_mount', 'symlink_install': True, 'test_result_base': None}
+[1.506s] Level 5:colcon.colcon_core.verb:set package 'yansa_vision_bringup' build argument 'cmake_args' from command line to 'None'
+[1.507s] Level 5:colcon.colcon_core.verb:set package 'yansa_vision_bringup' build argument 'cmake_target' from command line to 'None'
+[1.507s] Level 5:colcon.colcon_core.verb:set package 'yansa_vision_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.507s] Level 5:colcon.colcon_core.verb:set package 'yansa_vision_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.507s] Level 5:colcon.colcon_core.verb:set package 'yansa_vision_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.507s] Level 5:colcon.colcon_core.verb:set package 'yansa_vision_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.507s] Level 5:colcon.colcon_core.verb:set package 'yansa_vision_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.507s] Level 5:colcon.colcon_core.verb:set package 'yansa_vision_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.507s] Level 5:colcon.colcon_core.verb:set package 'yansa_vision_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.507s] DEBUG:colcon.colcon_core.verb:Building package 'yansa_vision_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup', 'merge_install': False, 'path': '/home/vom/ros2_ws/Nano_Vision/src/yansa_vision_bringup', 'symlink_install': True, 'test_result_base': None}
+[1.522s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.538s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.538s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vom/ros2_ws/Nano_Vision/src/ir_camera' with build type 'ament_python'
+[1.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_camera', 'ament_prefix_path')
+[1.557s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ir_camera/hook/ament_prefix_path.ps1'
+[1.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ir_camera/hook/ament_prefix_path.dsv'
+[1.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ir_camera/hook/ament_prefix_path.sh'
+[1.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.669s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vom/ros2_ws/Nano_Vision/src/rgb_camera' with build type 'ament_python'
+[1.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('rgb_camera', 'ament_prefix_path')
+[1.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/share/rgb_camera/hook/ament_prefix_path.ps1'
+[1.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/share/rgb_camera/hook/ament_prefix_path.dsv'
+[1.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/share/rgb_camera/hook/ament_prefix_path.sh'
+[1.717s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.717s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.823s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vom/ros2_ws/Nano_Vision/src/usb_mount' with build type 'ament_python'
+[1.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_mount', 'ament_prefix_path')
+[1.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/usb_mount/hook/ament_prefix_path.ps1'
+[1.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/usb_mount/hook/ament_prefix_path.dsv'
+[1.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/usb_mount/hook/ament_prefix_path.sh'
+[1.865s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.865s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.255s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vom/ros2_ws/Nano_Vision/src/ir_camera'
+[2.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.651s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vom/ros2_ws/Nano_Vision/src/rgb_camera'
+[2.666s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.666s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.043s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vom/ros2_ws/Nano_Vision/src/usb_mount'
+[3.061s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.061s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vom/ros2_ws/Nano_Vision/build/usb_mount': PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/usb_mount/prefix_override:/home/vom/ros2_ws/Nano_Vision/install/usb_mount/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/ros2_ws/Nano_Vision/build/usb_mount/build --no-deps install_data
+[3.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vom/ros2_ws/Nano_Vision/build/rgb_camera': PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/rgb_camera/prefix_override:/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/ros2_ws/Nano_Vision/build/rgb_camera/build --no-deps install_data
+[3.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vom/ros2_ws/Nano_Vision/build/ir_camera': PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/ir_camera/prefix_override:/home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/ros2_ws/Nano_Vision/build/ir_camera/build --no-deps install_data
+[4.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('rgb_camera', 'pythonpath_develop')
+[4.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vom/ros2_ws/Nano_Vision/build/rgb_camera' returned '0': PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/rgb_camera/prefix_override:/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/ros2_ws/Nano_Vision/build/rgb_camera/build --no-deps install_data
+[4.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/build/rgb_camera/share/rgb_camera/hook/pythonpath_develop.ps1'
+[4.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vom/ros2_ws/Nano_Vision/build/rgb_camera/share/rgb_camera/hook/pythonpath_develop.dsv'
+[4.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/build/rgb_camera/share/rgb_camera/hook/pythonpath_develop.sh'
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera' for CMake module files
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera' for CMake config files
+[4.436s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/lib'
+[4.436s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/bin'
+[4.436s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/lib/pkgconfig/rgb_camera.pc'
+[4.437s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages'
+[4.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('rgb_camera', 'pythonpath')
+[4.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/share/rgb_camera/hook/pythonpath.ps1'
+[4.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/share/rgb_camera/hook/pythonpath.dsv'
+[4.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/share/rgb_camera/hook/pythonpath.sh'
+[4.462s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/bin'
+[4.462s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rgb_camera)
+[4.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/share/rgb_camera/package.ps1'
+[4.491s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/share/rgb_camera/package.dsv'
+[4.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/share/rgb_camera/package.sh'
+[4.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/share/rgb_camera/package.bash'
+[4.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/share/rgb_camera/package.zsh'
+[4.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/share/colcon-core/packages/rgb_camera)
+[4.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_mount', 'pythonpath_develop')
+[4.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vom/ros2_ws/Nano_Vision/build/usb_mount' returned '0': PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/usb_mount/prefix_override:/home/vom/ros2_ws/Nano_Vision/install/usb_mount/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/ros2_ws/Nano_Vision/build/usb_mount/build --no-deps install_data
+[4.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/build/usb_mount/share/usb_mount/hook/pythonpath_develop.ps1'
+[4.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vom/ros2_ws/Nano_Vision/build/usb_mount/share/usb_mount/hook/pythonpath_develop.dsv'
+[4.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/build/usb_mount/share/usb_mount/hook/pythonpath_develop.sh'
+[4.549s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/usb_mount' for CMake module files
+[4.550s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/usb_mount' for CMake config files
+[4.550s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/lib'
+[4.551s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/bin'
+[4.551s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/lib/pkgconfig/usb_mount.pc'
+[4.551s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/lib/python3.10/site-packages'
+[4.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_mount', 'pythonpath')
+[4.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/usb_mount/hook/pythonpath.ps1'
+[4.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/usb_mount/hook/pythonpath.dsv'
+[4.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/usb_mount/hook/pythonpath.sh'
+[4.579s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/bin'
+[4.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_mount)
+[4.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/usb_mount/package.ps1'
+[4.605s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/usb_mount/package.dsv'
+[4.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/usb_mount/package.sh'
+[4.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/usb_mount/package.bash'
+[4.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/usb_mount/package.zsh'
+[4.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vom/ros2_ws/Nano_Vision/install/usb_mount/share/colcon-core/packages/usb_mount)
+[4.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_camera', 'pythonpath_develop')
+[4.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vom/ros2_ws/Nano_Vision/build/ir_camera' returned '0': PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/ir_camera/prefix_override:/home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vom/ros2_ws/Nano_Vision/build/ir_camera/build --no-deps install_data
+[4.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/build/ir_camera/share/ir_camera/hook/pythonpath_develop.ps1'
+[4.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vom/ros2_ws/Nano_Vision/build/ir_camera/share/ir_camera/hook/pythonpath_develop.dsv'
+[4.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/build/ir_camera/share/ir_camera/hook/pythonpath_develop.sh'
+[4.673s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/ir_camera' for CMake module files
+[4.673s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/ir_camera' for CMake config files
+[4.673s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib'
+[4.673s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/bin'
+[4.674s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/pkgconfig/ir_camera.pc'
+[4.674s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/python3.10/site-packages'
+[4.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_camera', 'pythonpath')
+[4.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ir_camera/hook/pythonpath.ps1'
+[4.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ir_camera/hook/pythonpath.dsv'
+[4.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ir_camera/hook/pythonpath.sh'
+[4.697s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/bin'
+[4.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ir_camera)
+[4.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ir_camera/package.ps1'
+[4.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ir_camera/package.dsv'
+[4.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ir_camera/package.sh'
+[4.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ir_camera/package.bash'
+[4.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/ir_camera/package.zsh'
+[4.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vom/ros2_ws/Nano_Vision/install/ir_camera/share/colcon-core/packages/ir_camera)
+[4.721s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vom/ros2_ws/Nano_Vision/src/yansa_vision_bringup' with build type 'ament_cmake'
+[4.721s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vom/ros2_ws/Nano_Vision/src/yansa_vision_bringup'
+[4.747s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.747s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup': AMENT_PREFIX_PATH=/home/vom/ros2_ws/Nano_Vision/install/usb_mount:/home/vom/ros2_ws/Nano_Vision/install/rgb_camera:/home/vom/ros2_ws/Nano_Vision/install/ir_camera:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vom/ros2_ws/RasPi_GPS_IMU/install/imu:/home/vom/ros2_ws/RasPi_GPS_IMU/install/gps_rtk2:/home/vom/ros2_ws/RasPi_LiDAR/install/velodyne_lidar:/home/vom/ros2_ws/HusarionRosbot2R/install/my_robot_controller:/opt/ros/humble PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/usb_mount:/home/vom/ros2_ws/Nano_Vision/install/usb_mount/lib/python3.10/site-packages:/home/vom/ros2_ws/Nano_Vision/build/rgb_camera:/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages:/home/vom/ros2_ws/Nano_Vision/build/ir_camera:/home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/vom/ros2_ws/Nano_Vision/src/yansa_vision_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup
+[5.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup' returned '0': AMENT_PREFIX_PATH=/home/vom/ros2_ws/Nano_Vision/install/usb_mount:/home/vom/ros2_ws/Nano_Vision/install/rgb_camera:/home/vom/ros2_ws/Nano_Vision/install/ir_camera:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vom/ros2_ws/RasPi_GPS_IMU/install/imu:/home/vom/ros2_ws/RasPi_GPS_IMU/install/gps_rtk2:/home/vom/ros2_ws/RasPi_LiDAR/install/velodyne_lidar:/home/vom/ros2_ws/HusarionRosbot2R/install/my_robot_controller:/opt/ros/humble PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/usb_mount:/home/vom/ros2_ws/Nano_Vision/install/usb_mount/lib/python3.10/site-packages:/home/vom/ros2_ws/Nano_Vision/build/rgb_camera:/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages:/home/vom/ros2_ws/Nano_Vision/build/ir_camera:/home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/vom/ros2_ws/Nano_Vision/src/yansa_vision_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup
+[5.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup': AMENT_PREFIX_PATH=/home/vom/ros2_ws/Nano_Vision/install/usb_mount:/home/vom/ros2_ws/Nano_Vision/install/rgb_camera:/home/vom/ros2_ws/Nano_Vision/install/ir_camera:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vom/ros2_ws/RasPi_GPS_IMU/install/imu:/home/vom/ros2_ws/RasPi_GPS_IMU/install/gps_rtk2:/home/vom/ros2_ws/RasPi_LiDAR/install/velodyne_lidar:/home/vom/ros2_ws/HusarionRosbot2R/install/my_robot_controller:/opt/ros/humble PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/usb_mount:/home/vom/ros2_ws/Nano_Vision/install/usb_mount/lib/python3.10/site-packages:/home/vom/ros2_ws/Nano_Vision/build/rgb_camera:/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages:/home/vom/ros2_ws/Nano_Vision/build/ir_camera:/home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup -- -j8 -l8
+[5.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup' returned '0': AMENT_PREFIX_PATH=/home/vom/ros2_ws/Nano_Vision/install/usb_mount:/home/vom/ros2_ws/Nano_Vision/install/rgb_camera:/home/vom/ros2_ws/Nano_Vision/install/ir_camera:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vom/ros2_ws/RasPi_GPS_IMU/install/imu:/home/vom/ros2_ws/RasPi_GPS_IMU/install/gps_rtk2:/home/vom/ros2_ws/RasPi_LiDAR/install/velodyne_lidar:/home/vom/ros2_ws/HusarionRosbot2R/install/my_robot_controller:/opt/ros/humble PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/usb_mount:/home/vom/ros2_ws/Nano_Vision/install/usb_mount/lib/python3.10/site-packages:/home/vom/ros2_ws/Nano_Vision/build/rgb_camera:/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages:/home/vom/ros2_ws/Nano_Vision/build/ir_camera:/home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup -- -j8 -l8
+[5.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup': AMENT_PREFIX_PATH=/home/vom/ros2_ws/Nano_Vision/install/usb_mount:/home/vom/ros2_ws/Nano_Vision/install/rgb_camera:/home/vom/ros2_ws/Nano_Vision/install/ir_camera:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vom/ros2_ws/RasPi_GPS_IMU/install/imu:/home/vom/ros2_ws/RasPi_GPS_IMU/install/gps_rtk2:/home/vom/ros2_ws/RasPi_LiDAR/install/velodyne_lidar:/home/vom/ros2_ws/HusarionRosbot2R/install/my_robot_controller:/opt/ros/humble PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/usb_mount:/home/vom/ros2_ws/Nano_Vision/install/usb_mount/lib/python3.10/site-packages:/home/vom/ros2_ws/Nano_Vision/build/rgb_camera:/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages:/home/vom/ros2_ws/Nano_Vision/build/ir_camera:/home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup
+[5.907s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yansa_vision_bringup)
+[5.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup' returned '0': AMENT_PREFIX_PATH=/home/vom/ros2_ws/Nano_Vision/install/usb_mount:/home/vom/ros2_ws/Nano_Vision/install/rgb_camera:/home/vom/ros2_ws/Nano_Vision/install/ir_camera:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vom/ros2_ws/RasPi_GPS_IMU/install/imu:/home/vom/ros2_ws/RasPi_GPS_IMU/install/gps_rtk2:/home/vom/ros2_ws/RasPi_LiDAR/install/velodyne_lidar:/home/vom/ros2_ws/HusarionRosbot2R/install/my_robot_controller:/opt/ros/humble PYTHONPATH=/home/vom/ros2_ws/Nano_Vision/build/usb_mount:/home/vom/ros2_ws/Nano_Vision/install/usb_mount/lib/python3.10/site-packages:/home/vom/ros2_ws/Nano_Vision/build/rgb_camera:/home/vom/ros2_ws/Nano_Vision/install/rgb_camera/lib/python3.10/site-packages:/home/vom/ros2_ws/Nano_Vision/build/ir_camera:/home/vom/ros2_ws/Nano_Vision/install/ir_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup
+[5.927s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup' for CMake module files
+[5.928s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup' for CMake config files
+[5.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('yansa_vision_bringup', 'cmake_prefix_path')
+[5.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/hook/cmake_prefix_path.ps1'
+[5.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/hook/cmake_prefix_path.dsv'
+[5.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/hook/cmake_prefix_path.sh'
+[5.947s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/bin'
+[5.947s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/lib/pkgconfig/yansa_vision_bringup.pc'
+[5.947s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/lib/python3.10/site-packages'
+[5.948s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/bin'
+[5.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/package.ps1'
+[5.965s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/package.dsv'
+[5.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/package.sh'
+[5.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/package.bash'
+[5.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/package.zsh'
+[5.967s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/colcon-core/packages/yansa_vision_bringup)
+[6.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yansa_vision_bringup)
+[6.035s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup' for CMake module files
+[6.037s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup' for CMake config files
+[6.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('yansa_vision_bringup', 'cmake_prefix_path')
+[6.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/hook/cmake_prefix_path.ps1'
+[6.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/hook/cmake_prefix_path.dsv'
+[6.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/hook/cmake_prefix_path.sh'
+[6.057s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/bin'
+[6.057s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/lib/pkgconfig/yansa_vision_bringup.pc'
+[6.057s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/lib/python3.10/site-packages'
+[6.058s] Level 1:colcon.colcon_core.environment:checking '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/bin'
+[6.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/package.ps1'
+[6.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/package.dsv'
+[6.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/package.sh'
+[6.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/package.bash'
+[6.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/yansa_vision_bringup/package.zsh'
+[6.078s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vom/ros2_ws/Nano_Vision/install/yansa_vision_bringup/share/colcon-core/packages/yansa_vision_bringup)
+[6.079s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.081s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.081s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.081s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.106s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.106s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.106s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.123s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.144s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vom/ros2_ws/Nano_Vision/install/local_setup.ps1'
+[6.145s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vom/ros2_ws/Nano_Vision/install/_local_setup_util_ps1.py'
+[6.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vom/ros2_ws/Nano_Vision/install/setup.ps1'
+[6.173s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vom/ros2_ws/Nano_Vision/install/local_setup.sh'
+[6.175s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vom/ros2_ws/Nano_Vision/install/_local_setup_util_sh.py'
+[6.176s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vom/ros2_ws/Nano_Vision/install/setup.sh'
+[6.200s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vom/ros2_ws/Nano_Vision/install/local_setup.bash'
+[6.201s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vom/ros2_ws/Nano_Vision/install/setup.bash'
+[6.223s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vom/ros2_ws/Nano_Vision/install/local_setup.zsh'
+[6.224s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vom/ros2_ws/Nano_Vision/install/setup.zsh'

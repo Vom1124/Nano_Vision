@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vom/Nano_Vision/src/yansa_vision_bringup
+CMAKE_SOURCE_DIR = /home/vom/ros2_ws/Nano_Vision/src/yansa_vision_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vom/Nano_Vision/build/yansa_vision_bringup
+CMAKE_BINARY_DIR = /home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vom/Nano_Vision/build/yansa_vision_bringup/CMakeFiles /home/vom/Nano_Vision/build/yansa_vision_bringup//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup/CMakeFiles /home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vom/Nano_Vision/build/yansa_vision_bringup/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vom/ros2_ws/Nano_Vision/build/yansa_vision_bringup/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

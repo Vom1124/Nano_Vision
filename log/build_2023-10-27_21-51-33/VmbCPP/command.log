@@ -1,2 +1,0 @@
-Invoking command in '/home/vom/Nano_Vision/build/VmbCPP': /usr/bin/cmake --build /home/vom/Nano_Vision/build/VmbCPP -- -j8 -l8
-Invoked command in '/home/vom/Nano_Vision/build/VmbCPP' returned '0': /usr/bin/cmake --build /home/vom/Nano_Vision/build/VmbCPP -- -j8 -l8

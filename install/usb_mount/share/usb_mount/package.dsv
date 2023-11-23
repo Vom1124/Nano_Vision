@@ -1,0 +1,9 @@
+source;share/usb_mount/hook/pythonpath.ps1
+source;share/usb_mount/hook/pythonpath.dsv
+source;share/usb_mount/hook/pythonpath.sh
+source;share/usb_mount/hook/ament_prefix_path.ps1
+source;share/usb_mount/hook/ament_prefix_path.dsv
+source;share/usb_mount/hook/ament_prefix_path.sh
+source;../../build/usb_mount/share/usb_mount/hook/pythonpath_develop.ps1
+source;../../build/usb_mount/share/usb_mount/hook/pythonpath_develop.dsv
+source;../../build/usb_mount/share/usb_mount/hook/pythonpath_develop.sh

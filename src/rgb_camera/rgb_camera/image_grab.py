@@ -30,14 +30,6 @@ from typing import Optional, Tuple
 from vmbpy import *
 import cv2
 
-# Logging in as sudo user
-os.system("sudo -k") # First exiting the sudo mode if already in sudo mode
-sudoPassword = "123"
-os.system("echo '\e[7m \e[91m Logging in as sudo user...\e[0m'")
-os.system("echo %s | sudo -s --stdin" %(sudoPassword))
-os.system("echo '\n \e[5m \e[32m*Successfully logged in as sudo user!*\e[0m'")
-current_username = getpass.getuser()
-
 
 # True resolution of the 1800 U-508c
 w = 2464 # Width of the stream/ resize frame
@@ -126,7 +118,7 @@ def setupCamera(cam: Camera):
 
         # Enable auto exposure time setting if camera supports it
         cam.ExposureAuto.set(False)
-        cam.ExposureTime.set(10000)
+        cam.ExposureTime.set(75000)
         # except (AttributeError, VmbFeatureError):
             # pass
 
@@ -229,66 +221,22 @@ def processingImage(cam):
         
 
 def videoWriter(fps):
-
     # Checking if USB drive is mounted
     isMountsda = os.path.exists("/dev/sda1")
     isMountsdb = os.path.exists("/dev/sdb1")
     isMountsdc = os.path.exists("/dev/sdc1")
     isMountsdd = os.path.exists("/dev/sdd1")
 
-    print("sda status" + str(isMountsda) + "\nsdb status" + \
-        str(isMountsdb) + "\nsdc status" + str(isMountsdc) + \
-                "\nsdd status" + str(isMountsdd))
-
-    # Now creating a mountpoint name for the USB manually
-    if isMountsda==True or isMountsdb==True or isMountsdc==True:     
-        #Removing/Unmounting (clearing) already existing mountpoint to avoid overlap in the mount status
-        os.system("sudo umount /dev/sd* > /dev/null  2>&1") # the output will be null
-        os.system("echo '\e[33mINFO: Mount status success: a USB drive is found.\
-        The video stream will be saved to the inserted USB.\e[0m'")
-        
-        #Checking if mount point name already exists (Need to create only on the first run).
-        isMountPointName = os.path.exists("/media/Nano_Vision/RGB")
-
-        os.system("sudo chown %s:%s /media/Nano_Vision"%(current_username,current_username))
-        os.system("sudo chown %s:%s /dev/sd*"%(current_username,current_username))
-        
-        if isMountPointName==True:
-            try:
-                os.system("sudo rm -r /media/Nano_Vision/*")
-                os.system("mkdir /media/Nano_Vision/RGB") # Creating a mount point name
-            except:
-                pass
-        elif isMountPointName==False:      
-            os.system("mkdir /media/Nano_Vision/RGB") # Creating a mount point name
-        '''
-        The order of checking the mount is reversed to ensure that there 
-        is no problem mounting with already preserved mountpoints by the system.
-        For example, if sda is already mounted by the system for some port address, then the access to 
-        mount the sda for USB drive won't exist. So, the further options will be checked, by in the mean time, the sda in the 
-        alphabetical order will throw an error and stop the code. Therefore, the mount check is initiated with sdc.
-        Only three /dev/sd* are used, as atmost three ports will be used simultaneously. 
-        '''
-        if isMountsdd:
-            mountCommand = "sudo mount /dev/sdd1 /media/Nano_Vision/RGB -o umask=022,rwx,uid=1000,gid=1000"
-        elif isMountsdc:
-            mountCommand = "sudo mount /dev/sdc1 /media/Nano_Vision/RGB -o umask=022,rwx,uid=1000,gid=1000"   
-        elif isMountsdb:
-            mountCommand = "sudo mount /dev/sdb1 /media/Nano_Vision/RGB -o umask=022,rwx,uid=1000,gid=1000"
-        elif isMountsda:
-            mountCommand = "sudo mount /dev/sda1 /media/Nano_Vision/RGB -o umask=022,rwx,uid=1000,gid=1000"
-        
-        os.system(mountCommand)    
-        videoWrite = cv2.VideoWriter("/media/Nano_Vision/RGB/RGBOutput.avi", cv2.VideoWriter_fourcc(*'XVID'), fps, (w_d,h_d)) 
+    if isMountsda==True or isMountsdb==True or isMountsdc==True or isMountsdd==True:     
+	#Use the ROS2 node "usb_mount" to mount it. Otherwise, use the launch file to auto mount it. 
+        videoWrite = cv2.VideoWriter("/media/Nano_Vision/RGBOutput.avi", cv2.VideoWriter_fourcc(*'XVID'), fps, (w_d,h_d)) 
         
     else:
         print("WARNING: Mount status failure: no USB inserted to write the video. The stream will be saved to local drive instead.")
         videoWrite = cv2.VideoWriter("/home/%s/RGBOutput.avi"%(current_username), cv2.VideoWriter_fourcc(*'XVID'), fps, (w_d,h_d))
-        os.system("sudo chmod -R a+rwx /home/%s/RGBOutput.avi"%(current_username))
-        os.system("sudo chown %s:%s /home/%s/RGBOutput.avi"%(current_username,current_username,current_username))
+        os.system("echo 123 | sudo -S chmod -R a+rwx /home/%s/RGBOutput.avi"%(current_username))
+        os.system("echo 123 | sudo -S chown %s:%s /home/%s/RGBOutput.avi"%(current_username,current_username,current_username))
 
-    
-      
     return videoWrite
     
 

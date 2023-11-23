@@ -1,0 +1,3 @@
+[console_scripts]
+mount = usb_mount.mount:main
+

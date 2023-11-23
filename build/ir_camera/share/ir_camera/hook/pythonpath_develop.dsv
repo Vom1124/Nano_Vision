@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;/home/vom/Nano_Vision/build/ir_camera
+prepend-non-duplicate;PYTHONPATH;/home/vom/ros2_ws/Nano_Vision/build/ir_camera
